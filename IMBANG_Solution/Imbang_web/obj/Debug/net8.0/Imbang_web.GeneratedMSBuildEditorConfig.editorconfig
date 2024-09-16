@@ -26,6 +26,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBdWRpb3MucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/IMBANG_IPT/IPT102/IMBANG_Solution/Imbang_web/Components/Pages/Calculator.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYWxjdWxhdG9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/IMBANG_IPT/IPT102/IMBANG_Solution/Imbang_web/Components/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 

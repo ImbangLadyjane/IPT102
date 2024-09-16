@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Imbang_web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e37fb9ec1839a9a5343e23a5461379ef3628450")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+afaf1923862ef6b3a8e0330ba3aae1d645ff3c86")]
 [assembly: System.Reflection.AssemblyProductAttribute("Imbang_web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Imbang_web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
