@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\imbangsolution\\imbang_web\\pages\\event.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\pages\\event.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\imbangsolution\\imbang_web\\pages\\images.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\pages\\images.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\imbangsolution\\imbang_web\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\imbangsolution\\imbang_web\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\imbangsolution\\imbang_web\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\imbangsolution\\imbang_web\\pages\\videos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\pages\\videos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\imbangsolution\\imbang_web\\pages\\audio.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\pages\\audio.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\imbangsolution\\imbang_web\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\imbangsolution\\imbang_web\\pages\\calculator.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\pages\\calculator.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Imbang_web\\Shared\\MainLayout.razor",
+              "ToolTip": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "Imbang_web\\Shared\\MainLayout.razor",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAE0AAACqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T07:37:17.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "Imbang_web\\Pages\\Index.razor",
+              "ToolTip": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\Pages\\Index.razor",
+              "RelativeToolTip": "Imbang_web\\Pages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAApPgAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T05:47:53.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Imbang_web\\Shared\\NavMenu.razor",
+              "ToolTip": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "Imbang_web\\Shared\\NavMenu.razor",
+              "ViewState": "AgIAABIAAAAAAAAAAAAkwB0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T05:43:58.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Calculator.razor",
+              "DocumentMoniker": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\Pages\\Calculator.razor",
+              "RelativeDocumentMoniker": "Imbang_web\\Pages\\Calculator.razor",
+              "ToolTip": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\Pages\\Calculator.razor",
+              "RelativeToolTip": "Imbang_web\\Pages\\Calculator.razor",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T05:42:46.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Audio.razor",
+              "DocumentMoniker": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\Pages\\Audio.razor",
+              "RelativeDocumentMoniker": "Imbang_web\\Pages\\Audio.razor",
+              "ToolTip": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\Pages\\Audio.razor",
+              "RelativeToolTip": "Imbang_web\\Pages\\Audio.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T05:42:24.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Videos.razor",
+              "DocumentMoniker": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\Pages\\Videos.razor",
+              "RelativeDocumentMoniker": "Imbang_web\\Pages\\Videos.razor",
+              "ToolTip": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\Pages\\Videos.razor",
+              "RelativeToolTip": "Imbang_web\\Pages\\Videos.razor",
+              "ViewState": "AgIAADsAAAAAAAAAAAAkwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T05:41:51.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Event.razor",
+              "DocumentMoniker": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\Pages\\Event.razor",
+              "RelativeDocumentMoniker": "Imbang_web\\Pages\\Event.razor",
+              "ToolTip": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\Pages\\Event.razor",
+              "RelativeToolTip": "Imbang_web\\Pages\\Event.razor",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAEEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T05:41:04.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Images.razor",
+              "DocumentMoniker": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\Pages\\Images.razor",
+              "RelativeDocumentMoniker": "Imbang_web\\Pages\\Images.razor",
+              "ToolTip": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\Pages\\Images.razor",
+              "RelativeToolTip": "Imbang_web\\Pages\\Images.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T05:41:29.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\Pages\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Imbang_web\\Pages\\_Layout.cshtml",
+              "ToolTip": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\Pages\\_Layout.cshtml",
+              "RelativeToolTip": "Imbang_web\\Pages\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T07:29:28.135Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

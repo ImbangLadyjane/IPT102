@@ -1,0 +1,88 @@
+﻿@inherits LayoutComponentBase
+
+<PageTitle>Imbang_web</PageTitle>
+
+<style>
+    body {
+        background-color: #f0f8ff; /* Light blue background */
+        color: #333; /* Dark text */
+    }
+
+    .sidebar {
+        background-color: #003366; /* Dark blue sidebar */
+        color: #fff; /* White text */
+    }
+
+    .navbar {
+        background-color: #006699; /* Medium blue navbar */
+    }
+
+    .navbar-nav .nav-link {
+        color: #fff; /* White text for links */
+    }
+
+    .navbar-nav .nav-link:hover {
+        color: #ffcc00; /* Yellow on hover */
+    }
+
+    .content {
+        background-color: #ffffff; /* White content area */
+        padding: 20px; /* Padding for content */
+    }
+
+    footer {
+        background-color: #003366; /* Dark blue footer */
+        color: #fff; /* White text */
+    }
+
+    footer a {
+        color: #ffcc00; /* Yellow for footer links */
+    }
+
+    footer a:hover {
+        color: #ffffff; /* White on hover */
+    }
+</style>
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.tripadvisor.com.ph/">Tripadvisor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.facebook.com/photo/?fbid=748703467290243&set=a.224830553010873&__tn__=%3C">Department of Tourism</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="top-row px-4">
+            <a href="https://www.roughguides.com/" target="_blank">Roughguides</a>
+        </div>
+
+        <article class="content px-4">
+            @Body
+        </article>
+
+        <div class="container d-flex flex-column align-items-center text-center">
+            <p class="mb-0 fw-bold">LADY JANE IMBANG</p>
+
+            <a href="https://southernchristiancollege.edu.ph/" target="_blank" class="link-body-emphasis text-decoration-none">
+                <img src="https://southernchristiancollege.edu.ph/wp-content/uploads/2024/06/SCC-Official-Logo_320px.png" alt="Southern Christian College Logo" width="100" class="me-2">
+            </a>
+
+            <div>
+                <p class="mb-0 fw-bold">SOUTHERN CHRISTIAN COLLEGE</p>
+                <p class="mb-0 fw-bold">INFORMATION TECHNOLOGY STUDENT</p>
+            </div>
+        </div>
+
+    </main>
+</div>

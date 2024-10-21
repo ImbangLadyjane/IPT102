@@ -1,0 +1,95 @@
+﻿@page "/Event"
+
+<h3>Traveler Registration</h3>
+
+<div class="registration-container">
+    <EditForm Model="@traveler" OnValidSubmit="HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div>
+            <label for="name">Name:</label>
+            <InputText id="name" @bind-Value="traveler.Name" />
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <InputText id="email" @bind-Value="traveler.Email" />
+        </div>
+        <div>
+            <label for="destination">Destination:</label>
+            <InputText id="destination" @bind-Value="traveler.Destination" />
+        </div>
+
+        <button type="submit">Add Traveler</button>
+    </EditForm>
+
+    <h4>Registered Travelers</h4>
+    <ul>
+        @foreach (var t in travelers)
+        {
+            <li>
+                @t.Name - @t.Email - @t.Destination
+                <button @onclick="() => UpdateTraveler(t)">Update</button>
+                <button @onclick="() => DeleteTraveler(t)">Delete</button>
+            </li>
+        }
+    </ul>
+</div>
+
+@code {
+    private Traveler traveler = new Traveler();
+    private List<Traveler> travelers = new List<Traveler>();
+
+    private void HandleValidSubmit()
+    {
+        travelers.Add(new Traveler
+            {
+                Name = traveler.Name,
+                Email = traveler.Email,
+                Destination = traveler.Destination
+            });
+
+        traveler = new Traveler(); // Reset the form
+    }
+
+    private void DeleteTraveler(Traveler travelerToDelete)
+    {
+        travelers.Remove(travelerToDelete);
+    }
+
+    private void UpdateTraveler(Traveler travelerToUpdate)
+    {
+        traveler = travelerToUpdate; // Load data into the form for updating
+        travelers.Remove(travelerToUpdate); // Remove from the list temporarily
+    }
+
+    public class Traveler
+    {
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Destination { get; set; }
+    }
+}
+
+<style>
+    .registration-container {
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSMz9wRbG6xcegQAzJ4SryndvA2TO41usZMg&s'); /* Replace with your image URL */
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+        border-radius: 10px;
+        color: white; /* Text color for visibility */
+        max-width: 600px;
+        margin: auto;
+    }
+
+    label {
+        display: block;
+        margin-top: 10px;
+    }
+
+    button {
+        margin-top: 10px;
+        margin-right: 5px;
+    }
+</style>
