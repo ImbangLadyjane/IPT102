@@ -1,6 +1,6 @@
 ﻿@page "/Event"
 
-<h3 style="color: white; font-weight: bold;">Traveler Registration</h3>
+<h3>Traveler Registration</h3>
 
 <div class="registration-container">
     <EditForm Model="@traveler" OnValidSubmit="HandleValidSubmit">
@@ -24,8 +24,7 @@
     </EditForm>
 
     <h4>Registered Travelers</h4>
-    <ul class="registered-travelers-list">
-        <!-- Added class for styling -->
+    <ul>
         @foreach (var t in travelers)
         {
             <li>
@@ -74,12 +73,12 @@
 
 <style>
     .registration-container {
-        background-image: url('https://www.creativefabrica.com/wp-content/uploads/2023/04/17/Beach-Background-Graphics-67484113-1-1-580x387.jpg'); /* Replace with your image URL */
+        background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20240703/pngtree-summer-beach-sunset-with-tree-background-image_15944724.jpg'); /* Replace with your image URL */
         background-size: cover;
         background-position: center;
         padding: 20px;
         border-radius: 10px;
-        color: white; /* Default text color for visibility */
+        color: white; /* Text color for visibility */
         max-width: 600px;
         margin: auto;
     }
@@ -92,11 +91,5 @@
     button {
         margin-top: 10px;
         margin-right: 5px;
-    }
-
-    /* Style for registered travelers list items */
-    .registered-travelers-list li {
-        color: black; /* Change text color of registered travelers to black */
-        margin-bottom: 10px; /* Optional: adds space between list items */
     }
 </style>

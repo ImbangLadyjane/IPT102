@@ -2,9 +2,7 @@
 
 <PageTitle>Calculator</PageTitle>
 
-
 <link href="/calstyle.css" rel="stylesheet" />
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,12 +11,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Calculator</title>
     <style>
-        body {
+        body.calculator-body { /* Changed class name to differentiate */
             font-family: Arial, sans-serif;
-            background-color: #333; /* Dark background */
+            background-color: #1c1c1c; /* Darker background specifically for calculator */
             color: #fff; /* Light text color */
             display: flex;
-            justify-content: left; /* Left horizontally */
+            justify-content: center; /* Center horizontally */
             align-items: center; /* Center vertically */
             height: 100vh; /* Full viewport height */
             margin: 0;
@@ -96,10 +94,12 @@
     </style>
 
 </head>
-<body>
+<body class="calculator-body">
+    <!-- Added class here -->
 
     <div class="calculator">
-        <h1 align="center">Basic Calculator</h1>
+        <h1 style="color: white;">Basic Calculator</h1>
+
         <form>
             <div class="display">
                 <input type="text" name="display" id="display" readonly>
@@ -138,4 +138,3 @@
 
 </body>
 </html>
-

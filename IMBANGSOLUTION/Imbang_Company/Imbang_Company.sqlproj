@@ -56,20 +56,20 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
-    <Folder Include="dbo" />
-    <Folder Include="dbo\Tables" />
-    <Folder Include="dbo\Scripts" />
+    <Folder Include="Tables" />
+    <Folder Include="Scripts" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="dbo\Tables\DEPARTMENT.sql" />
-    <Build Include="dbo\Tables\EMPLOYEE.sql" />
-    <Build Include="dbo\Tables\PROJECTS.sql" />
-    <Build Include="dbo\Tables\WORKS_ON.sql" />
-    <Build Include="dbo\Tables\DEPENDENT.sql" />
-    <Build Include="dbo\Tables\DEPT_LOCATION.sql" />
+    <Build Include="Tables\DEPARTMENT.sql" />
+    <Build Include="Tables\EMPLOYEE.sql" />
+    <Build Include="Tables\DEPT_LOCATIONS.sql" />
+    <Build Include="Tables\DEPENDENT.sql" />
+    <Build Include="Tables\PROJECT.sql" />
+    <Build Include="Tables\WORKS_ON.sql" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="dbo\Scripts\DEPARTMENT.sql" />
-    <None Include="dbo\Scripts\EMPLOYEE.sql" />
+    <None Include="Scripts\EMPLOYEE.sql" />
+    <None Include="Scripts\DEPARTMENT.sql" />
+    <None Include="Scripts\PROJECT.sql" />
   </ItemGroup>
 </Project>
