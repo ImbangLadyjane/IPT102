@@ -1,9 +1,11 @@
 ﻿INSERT DEPARTMENT(Dname,Dnumber,Mgr_ssn,Mgr_start_date)
 
 VALUES 
-	('Darlene','10','2', '2002-08-30'),
-	('Darlene1', '21', '4', '2003-08-30'),
-	('Darlene2', '22', '6', '2004-08-30')GO
+	('Jane','10','2', '2002-08-30'),
+	('Lady', '21', '4', '2003-08-30'),
+	('Sky', '22', '6', '2004-08-30')
+
+	GO
 
 INSERT Department (Dname,Dnumber,Mgr_ssn,Mgr_start_date)
 VALUES

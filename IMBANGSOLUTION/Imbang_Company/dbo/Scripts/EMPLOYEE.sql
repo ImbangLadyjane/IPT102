@@ -2,11 +2,11 @@
 
 INSERT Employee (Fname, Minit, Lname, SSN, Bdate ,Address, Sex, Salary ,Super_ssn ,DNO)
 Values
-('Steven', 'P', 'Molina', 001, '2003-09-29', 'Balay', 'M', 20, 001, 1),
-('Manok', 'P', 'Chicken', 002, '2012-01-10', 'Balay1', 'F', 10, 002, 1),
-('Balay', 'S', 'House', 003, '2001-02-12', 'House', 'M', 30, 010, 1),
-('Suman', 'X', 'Biko', 004, '2003-11-09', 'Isda', 'M', 100, 012, 1),
-('Screen', 'X', 'Mouse', 005, '2013-12-15', 'Sea', 'F', 200, 042, 2)
+('Jane', 'S', 'Imbang', 001, '2003-09-29', 'San Isidro', 'M', 20, 001, 1),
+('Lady', 'P', 'Samson', 002, '2012-01-10', 'Midsayap', 'F', 10, 002, 1),
+('Darlene', 'S', 'Borines', 003, '2001-02-12', 'P1', 'M', 30, 010, 1),
+('Belle', 'X', 'Lou', 004, '2003-11-09', 'Isda', 'P2', 100, 012, 1),
+('Sky', 'X', 'Cruz', 005, '2013-12-15', 'Sea', 'P3', 200, 042, 2)
 
 GO
 
@@ -16,11 +16,11 @@ ORDER by SSN ASC
 GO
 
 UPDATE Employee
-SET Fname = 'Hotdog'
+SET Fname = 'Jane'
 WHERE SSN = 001;
 
 UPDATE Employee
-SET Fname = 'Steven'
+SET Fname = 'Lady'
 WHERE SSN = 001;
 
 GO

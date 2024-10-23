@@ -1,59 +1,59 @@
 {
   "Files": [
     {
-      "Id": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Imbang_web.bundle.scp.css",
+      "Id": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Imbang_web.bundle.scp.css",
       "PackagePath": "staticwebassets\\Imbang_web.bundle.scp.css"
     },
     {
-      "Id": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Id": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Id": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\open-iconic\\README.md",
+      "Id": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\open-iconic\\README.md",
       "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
     },
     {
-      "Id": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Id": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Id": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Id": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Id": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Id": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Id": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Id": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Id": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Id": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Id": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Id": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Id": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\site.css",
+      "Id": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\IMBANG_IPT\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\favicon.ico",
+      "Id": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
