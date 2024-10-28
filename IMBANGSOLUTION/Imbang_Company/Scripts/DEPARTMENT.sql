@@ -16,14 +16,26 @@ GO
 
 CREATE NONCLUSTERED INDEX [IX_DEPARTMENT_Name] ON [dbo].[DEPARTMENT] ([Dname] ASC)
 
-INSERT INTO DEPARTMENT(Dname,Dnumber,Mgr_ssn,Mgr_start_date)
+INSERT INTO DEPARTMENT(Dname, Dnumber, Mgr_ssn, Mgr_start_date)
 VALUES 
-(N'Finance',10, N'123456789', '2002-08-30'),
-(N'HR', 21, N'987654321', '2003-08-30'),
-(N'IT', 22, N'897654321', '2004-08-30');
+(N'Finance',11, N'123456789', '2002-08-30'),
+(N'HR', 24, N'987654321', '2003-08-30'),
+(N'IT', 26, N'897654321', '2004-08-30');
 GO
 
 SELECT * FROM DEPARTMENT;
+GO
+
+UPDATE dbo.DEPARTMENT
+SET Dname ='Finace',
+	Mgr_ssn ='143143143',
+	Mgr_start_date = '2024-10-20'
+WHERE Dnumber = 10;
+GO
+
+SELECT * FROM DEPARTMENT
+ORDER by Dname ASC
+
 GO
 
 DELETE FROM dbo.DEPARTMENT

@@ -1,0 +1,84 @@
+﻿@page
+@model Imbang_web.Pages.CrudIndexModel
+@{
+    ViewData["Title"] = "Department Information System";
+}
+
+<div class="text-center">
+    <h1 class="display-4">DEPARTMENT INFORMATION SYSTEM</h1>
+</div>
+
+<!-- Table to Display Department List -->
+<table class="table bg-dark text-white">
+    <thead>
+        <tr>
+            <th>Dnumber</th>
+            <th>Dname</th>
+            <th>Mgr_ssn</th>
+            <th>Mgr_start_date</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.DepartmentList)
+        {
+            <tr>
+                <td>@item.Dnumber</td>
+                <td>@item.Dname</td>
+                <td>@item.Mgr_ssn</td>
+                <td>@item.Mgr_start_date.ToString("yyyy-MM-dd")</td>
+                <td>
+                    <!-- Delete Button -->
+                    <form method="post" asp-page-handler="Delete" style="display:inline;">
+                        <input type="hidden" name="DnumberInput" value="@item.Dnumber" />
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+
+                    <!-- Edit Button -->
+                    <form method="post" asp-page-handler="Edit" style="display:inline;">
+                        <input type="hidden" name="DnumberInput2" value="@item.Dnumber" />
+                        <input type="hidden" name="DnameInput2" value="@item.Dname" />
+                        <input type="hidden" name="Mgr_ssnInput2" value="@item.Mgr_ssn" />
+                        <input type="hidden" name="Mgr_start_dateInput2" value="@item.Mgr_start_date.ToString("yyyy-MM-dd")" />
+                        <button type="submit" class="btn btn-secondary">Edit</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Create/Update Form -->
+<h4>CREATE/UPDATE DEPARTMENT</h4>
+<form method="post" asp-page-handler="Create">
+    <div class="form-group">
+        <label>Dnumber:</label>
+        <input type="number" name="DnumberInput" value="@Model.DnumberInput" class="form-control" placeholder="Enter Dnumber" required />
+    </div>
+    <div class="form-group">
+        <label>Dname:</label>
+        <input type="text" name="DnameInput" value="@Model.DnameInput" class="form-control" placeholder="Enter Dname" required />
+    </div>
+    <div class="form-group">
+        <label>Mgr_ssn:</label>
+        <input type="text" name="Mgr_ssnInput" value="@Model.Mgr_ssnInput" class="form-control" placeholder="Enter Mgr_ssn" required />
+    </div>
+    <div class="form-group">
+        <label>Mgr_start_date:</label>
+        <input type="date" name="Mgr_start_dateInput" value="@Model.Mgr_start_dateInput.ToString("yyyy-MM-dd")" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-success">Create</button>
+    <button formmethod="post" asp-page-handler="Update" type="submit" class="btn btn-primary">Update</button>
+</form>
+
+<!-- Search Form -->
+<h4>SEARCH DEPARTMENT</h4>
+<form method="post" asp-page-handler="Search">
+    <input type="text" name="Search_Input" class="form-control" placeholder="Search Dnumber or Dname" />
+    <button class="btn btn-secondary mt-2" type="submit">Search</button>
+</form>
+
+<!-- Show All Departments Button -->
+<form method="post" asp-page-handler="SearchAll" style="margin-top: 10px;">
+    <button type="submit" class="btn btn-secondary">Show All</button>
+</form>

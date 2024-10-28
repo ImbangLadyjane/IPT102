@@ -5,7 +5,9 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Imbang_Company", "Imbang_Company\Imbang_Company.sqlproj", "{D518AD53-3AD0-438A-8AF4-3398EA6CC983}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imbang_web", "Imbang_web\Imbang_web.csproj", "{87D5D75B-E573-4704-8932-07E02A2180CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Imbang_web", "Imbang_web\Imbang_web.csproj", "{87D5D75B-E573-4704-8932-07E02A2180CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{F5D716E8-E41B-48B6-A241-A76869E1D47C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{87D5D75B-E573-4704-8932-07E02A2180CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87D5D75B-E573-4704-8932-07E02A2180CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87D5D75B-E573-4704-8932-07E02A2180CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5D716E8-E41B-48B6-A241-A76869E1D47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5D716E8-E41B-48B6-A241-A76869E1D47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5D716E8-E41B-48B6-A241-A76869E1D47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5D716E8-E41B-48B6-A241-A76869E1D47C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

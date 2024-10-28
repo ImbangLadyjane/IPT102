@@ -1,95 +1,144 @@
 ﻿@page "/Event"
 
-<h3>Traveler Registration</h3>
-
-<div class="registration-container">
-    <EditForm Model="@traveler" OnValidSubmit="HandleValidSubmit">
-        <DataAnnotationsValidator />
-        <ValidationSummary />
-
-        <div>
-            <label for="name">Name:</label>
-            <InputText id="name" @bind-Value="traveler.Name" />
-        </div>
-        <div>
-            <label for="email">Email:</label>
-            <InputText id="email" @bind-Value="traveler.Email" />
-        </div>
-        <div>
-            <label for="destination">Destination:</label>
-            <InputText id="destination" @bind-Value="traveler.Destination" />
-        </div>
-
-        <button type="submit">Add Traveler</button>
-    </EditForm>
-
-    <h4>Registered Travelers</h4>
-    <ul>
-        @foreach (var t in travelers)
-        {
-            <li>
-                @t.Name - @t.Email - @t.Destination
-                <button @onclick="() => UpdateTraveler(t)">Update</button>
-                <button @onclick="() => DeleteTraveler(t)">Delete</button>
-            </li>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1 style="font-size: 36px; text-shadow: 2px 2px 4px black;"><strong>SUBSCRIBE NOW...</strong></h1>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://img.freepik.com/premium-photo/beautiful-tropical-beach-wallpaper_934930-321.jpg?w=740'); /* Change this to your image URL */
+            background-size: cover; 
+            background-position: center; 
+            text-align: center;
+            padding: 20px;
         }
-    </ul>
-</div>
 
-@code {
-    private Traveler traveler = new Traveler();
-    private List<Traveler> travelers = new List<Traveler>();
 
-    private void HandleValidSubmit()
-    {
-        travelers.Add(new Traveler
-            {
-                Name = traveler.Name,
-                Email = traveler.Email,
-                Destination = traveler.Destination
+        .subscribe-form {
+
+          
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        input[type="text"], input[type="email"] {
+            width: calc(100% - 20px); 
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #00796b; 
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #00796b; 
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+            button:hover {
+                background-color: #005f51; 
+            }
+
+        .result {
+            margin-top: 20px;
+            background-color: lightblue;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            max-width: 400px; 
+            margin: 20px auto; 
+            text-align: left; 
+
+        edit-button, .delete-button {
+            background-color: #00796b; 
+            margin-right: 5px;
+        }
+
+        .delete-button {
+            background-color: #00796b;
+        }
+    </style>
+</head>
+<body>
+
+   <h3 style="font-family: Arial, sans-serif; font-size: 18px;">Learn the secrets to Traveling in the Mindanao and Top Hidden Locations</h3>
+
+    <div class="subscribe-form">
+        <form id="subscribeForm" onsubmit="return handleSubmit(event);">
+            <input type="text" id="firstName" placeholder="First Name" required>
+            <input type="text" id="lastName" placeholder="Last Name" required>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <button type="submit">Click here to submit</button>
+        </form>
+    </div>
+
+    <div id="resultContainer" class="result" style="display:none;">
+        <h4>Submitted Information:</h4>
+        <div id="output"></div>
+    </div>
+
+    <script>
+        const subscriptions = []; 
+
+        function handleSubmit(event) {
+            event.preventDefault(); 
+
+            // Get input values
+            const firstName = document.getElementById("firstName").value;
+            const lastName = document.getElementById("lastName").value;
+            const email = document.getElementById("email").value;
+
+            // Create a subscription object
+            const subscription = { firstName, lastName, email };
+            subscriptions.push(subscription); // Add subscription to array
+
+            // Reset form fields
+            document.getElementById("subscribeForm").reset();
+
+            // Display the updated subscriptions
+            displaySubscriptions();
+        }
+
+        function displaySubscriptions() {
+            const output = document.getElementById("output");
+            output.innerHTML = ''; 
+            subscriptions.forEach((sub, index) => {
+                output.innerHTML += `
+                            <div>
+                                First Name: ${sub.firstName}<br>
+                                Last Name: ${sub.lastName}<br>
+                                Email: ${sub.email}<br>
+                                <button class="edit-button" onclick="editSubscription(${index})">Edit</button>
+                                <button class="delete-button" onclick="deleteSubscription(${index})">Delete</button>
+                                <hr>
+                            </div>
+                        `;
             });
+            document.getElementById("resultContainer").style.display = "block"; 
+        }
 
-        traveler = new Traveler(); // Reset the form
-    }
+        function editSubscription(index) {
+            const sub = subscriptions[index];
+            document.getElementById("firstName").value = sub.firstName;
+            document.getElementById("lastName").value = sub.lastName;
+            document.getElementById("email").value = sub.email;
+            deleteSubscription(index);
+        }
 
-    private void DeleteTraveler(Traveler travelerToDelete)
-    {
-        travelers.Remove(travelerToDelete);
-    }
+        function deleteSubscription(index) {
+            subscriptions.splice(index, 1); 
+            displaySubscriptions(); 
+        }
+    </script>
 
-    private void UpdateTraveler(Traveler travelerToUpdate)
-    {
-        traveler = travelerToUpdate; // Load data into the form for updating
-        travelers.Remove(travelerToUpdate); // Remove from the list temporarily
-    }
-
-    public class Traveler
-    {
-        public string Name { get; set; }
-        public string Email { get; set; }
-        public string Destination { get; set; }
-    }
-}
-
-<style>
-    .registration-container {
-        background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20240703/pngtree-summer-beach-sunset-with-tree-background-image_15944724.jpg'); /* Replace with your image URL */
-        background-size: cover;
-        background-position: center;
-        padding: 20px;
-        border-radius: 10px;
-        color: white; 
-        max-width: 600px;
-        margin: auto;
-    }
-
-    label {
-        display: block;
-        margin-top: 10px;
-    }
-
-    button {
-        margin-top: 10px;
-        margin-right: 5px;
-    }
-</style>
+</body>
+</html>

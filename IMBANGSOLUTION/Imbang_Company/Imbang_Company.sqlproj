@@ -71,5 +71,8 @@
     <None Include="Scripts\EMPLOYEE.sql" />
     <None Include="Scripts\DEPARTMENT.sql" />
     <None Include="Scripts\PROJECT.sql" />
+    <None Include="Scripts\DEPT_LOCATIONS.sql" />
+    <None Include="Scripts\DEPENDENT.sql" />
+    <None Include="Scripts\WORKS_ON.sql" />
   </ItemGroup>
 </Project>
