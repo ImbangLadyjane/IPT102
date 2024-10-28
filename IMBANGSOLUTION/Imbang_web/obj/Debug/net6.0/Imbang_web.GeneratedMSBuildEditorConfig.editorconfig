@@ -42,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/IPT_IMBANG/IPT102/IMBANGSOLUTION/Imbang_web/Pages/Subscription.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Vic2NyaXB0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/IPT_IMBANG/IPT102/IMBANGSOLUTION/Imbang_web/Pages/Videos.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlkZW9zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -61,6 +65,14 @@ build_metadata.AdditionalFiles.CssScope = b-4zwqqt8oz0
 [C:/IPT_IMBANG/IPT102/IMBANGSOLUTION/Imbang_web/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-klaozhkwyn
+
+[C:/IPT_IMBANG/IPT102/IMBANGSOLUTION/Imbang_web/Model/Subscriptions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kZWxcU3Vic2NyaXB0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IPT_IMBANG/IPT102/IMBANGSOLUTION/Imbang_web/Model/SubscritionManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kZWxcU3Vic2NyaXRpb25NYW5hZ2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
 
 [C:/IPT_IMBANG/IPT102/IMBANGSOLUTION/Imbang_web/Pages/CrudIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3J1ZEluZGV4LmNzaHRtbA==
