@@ -1,0 +1,8 @@
+C:\Imbang_IM\IMBANG_Solution\Imbang Company\bin\Release\Imbang Company.dacpac
+C:\Imbang_IM\IMBANG_Solution\Imbang Company\obj\Release\Imbang Company.sqlproj.AssemblyReference.cache
+C:\Imbang_IM\IMBANG_Solution\Imbang Company\obj\Release\Model.xml
+C:\Imbang_IM\IMBANG_Solution\Imbang Company\obj\Release\refactor.xml
+C:\Imbang_IM\IMBANG_Solution\Imbang Company\obj\Release\postdeploy.sql
+C:\Imbang_IM\IMBANG_Solution\Imbang Company\obj\Release\predeploy.sql
+C:\Imbang_IM\IMBANG_Solution\Imbang Company\obj\Release\Imbang_Company.dll
+C:\Imbang_IM\IMBANG_Solution\Imbang Company\obj\Release\Imbang_Company.pdb
