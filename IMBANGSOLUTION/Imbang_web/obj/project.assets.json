@@ -159,6 +159,16 @@
             "rid": "win"
           }
         }
+      },
+      "Imbang_ClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Imbang_ClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Imbang_ClassLibrary.dll": {}
+        }
       }
     }
   },
@@ -496,11 +506,17 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Imbang_ClassLibrary/1.0.0": {
+      "type": "project",
+      "path": "../Imbang_ClassLibrary/Imbang_ClassLibrary.csproj",
+      "msbuildProject": "../Imbang_ClassLibrary/Imbang_ClassLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Dapper >= 2.1.35",
+      "Imbang_ClassLibrary >= 1.0.0",
       "System.Data.SqlClient >= 4.8.6"
     ]
   },
@@ -510,11 +526,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Imbang_web.csproj",
+      "projectUniqueName": "E:\\IMBANGSOLUTION\\Imbang_web\\Imbang_web.csproj",
       "projectName": "Imbang_web",
-      "projectPath": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Imbang_web.csproj",
+      "projectPath": "E:\\IMBANGSOLUTION\\Imbang_web\\Imbang_web.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\obj\\",
+      "outputPath": "E:\\IMBANGSOLUTION\\Imbang_web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -530,7 +546,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\IMBANGSOLUTION\\Imbang_ClassLibrary\\Imbang_ClassLibrary.csproj": {
+              "projectPath": "E:\\IMBANGSOLUTION\\Imbang_ClassLibrary\\Imbang_ClassLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

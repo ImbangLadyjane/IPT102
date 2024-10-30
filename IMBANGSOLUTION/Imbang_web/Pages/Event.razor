@@ -1,31 +1,30 @@
 ﻿@page "/Event"
 
 @code {
-    // Model for registered person
     public class Person
     {
         public int Id { get; set; }
         public string Fname { get; set; }
         public string Lname { get; set; }
         public string Email { get; set; }
+        public string Message { get; set; } 
     }
     private List<Person> submittedInformation = new List<Person>();
     private Person newPerson = new Person();
     private int? editingPersonId = null;
-    private string eventDescription = "Learn the secrets to traveling in Mindanao and discovering top hidden locations.";
+    private string eventDescription = "Reach out to learn about travel in Mindanao, hidden destinations, or send your inquiries.";
     private bool showRegistrationForm = false;
-    private string emailErrorMessage = ""; 
+    private string emailErrorMessage = "";
 
     private void AddOrUpdatePerson()
     {
-        // Check if the email is valid
         if (string.IsNullOrWhiteSpace(newPerson.Email) || !newPerson.Email.Contains("@"))
         {
-            emailErrorMessage = "Please include an '@' in the email address. 'Jane' is missing an '@'.";
-            return; 
+            emailErrorMessage = "Please include an '@' in the email address.";
+            return;
         }
 
-        emailErrorMessage = ""; 
+        emailErrorMessage = "";
 
         if (editingPersonId.HasValue)
         {
@@ -33,6 +32,7 @@
             person.Fname = newPerson.Fname;
             person.Lname = newPerson.Lname;
             person.Email = newPerson.Email;
+            person.Message = newPerson.Message;
             editingPersonId = null;
         }
         else
@@ -50,6 +50,7 @@
         newPerson.Fname = person.Fname;
         newPerson.Lname = person.Lname;
         newPerson.Email = person.Email;
+        newPerson.Message = person.Message;
     }
 
     private void DeletePerson(int id)
@@ -64,19 +65,19 @@
 }
 
 <h1 style="font-size: 36px; color: black; text-shadow: 2px 2px 4px black; text-align: center;">
-    <strong>SUBSCRIBE NOW...</strong>
+    <strong>CONTACT US</strong>
 </h1>
 <div class="event-description">
     <p class="event-info">@eventDescription</p>
     <button class="toggle-button" @onclick="ToggleRegistrationForm">
-        @((showRegistrationForm ? "Hide" : "Show") + " Registration Form")
+        @((showRegistrationForm ? "Hide" : "Show") + " Contact Form")
     </button>
 </div>
 
 @if (showRegistrationForm)
 {
     <div class="registration-container">
-        <h4>Registration Form</h4>
+        <h4>Contact/Inquiry Form</h4>
         <EditForm Model="@newPerson" OnValidSubmit="@AddOrUpdatePerson">
             <DataAnnotationsValidator />
             <ValidationSummary />
@@ -97,10 +98,14 @@
                     <p class="error-message" style="color:red;">@emailErrorMessage</p>
                 }
             </div>
-            <button type="submit" class="submit-button">@((editingPersonId.HasValue) ? "Update" : "Click Here to Submit")</button>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <InputTextArea id="message" @bind-Value="newPerson.Message" class="form-input" placeholder="Enter your inquiry or message here" />
+            </div>
+            <button type="submit" class="submit-button">@((editingPersonId.HasValue) ? "Update" : "Submit Inquiry")</button>
         </EditForm>
 
-        <h4 class="submitted-info-header">Submitted Information</h4>
+        <h4 class="submitted-info-header">Submitted Inquiries</h4>
         <ul>
             @foreach (var person in submittedInformation)
             {
@@ -108,7 +113,8 @@
                     <div class="person-details">
                         <strong>First Name:</strong> @person.Fname<br />
                         <strong>Last Name:</strong> @person.Lname<br />
-                        <strong>Email:</strong> @person.Email
+                        <strong>Email:</strong> @person.Email<br />
+                        <strong>Message:</strong> @person.Message
                     </div>
                     <div class="button-group">
                         <button class="edit-button" @onclick="() => EditPerson(person)">Edit</button>

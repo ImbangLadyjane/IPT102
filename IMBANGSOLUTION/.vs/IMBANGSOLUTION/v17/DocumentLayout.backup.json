@@ -1,176 +1,65 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\",
+  "WorkspaceRootPath": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D518AD53-3AD0-438A-8AF4-3398EA6CC983}|Imbang_Company\\Imbang_Company.sqlproj|C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_Company\\Scripts\\DEPT_LOCATIONS.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{D518AD53-3AD0-438A-8AF4-3398EA6CC983}|Imbang_Company\\Imbang_Company.sqlproj|solutionrelative:Imbang_Company\\Scripts\\DEPT_LOCATIONS.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D518AD53-3AD0-438A-8AF4-3398EA6CC983}|Imbang_Company\\Imbang_Company.sqlproj|C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_Company\\Scripts\\DEPENDENT.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{D518AD53-3AD0-438A-8AF4-3398EA6CC983}|Imbang_Company\\Imbang_Company.sqlproj|solutionrelative:Imbang_Company\\Scripts\\DEPENDENT.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D518AD53-3AD0-438A-8AF4-3398EA6CC983}|Imbang_Company\\Imbang_Company.sqlproj|C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_Company\\Scripts\\DEPARTMENT.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{D518AD53-3AD0-438A-8AF4-3398EA6CC983}|Imbang_Company\\Imbang_Company.sqlproj|solutionrelative:Imbang_Company\\Scripts\\DEPARTMENT.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\extra\\imbangsolution\\imbang_web\\pages\\images.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\pages\\images.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\extra\\imbangsolution\\imbang_web\\pages\\event.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\ipt_imbang\\ipt102\\imbangsolution\\imbang_web\\pages\\event.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\pages\\event.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\extra\\imbangsolution\\imbang_web\\pages\\calculator.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\pages\\calculator.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\ipt_imbang\\ipt102\\imbangsolution\\imbang_web\\pages\\subscriptionsystem.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\pages\\subscriptionsystem.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\extra\\imbangsolution\\imbang_web\\pages\\audio.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\pages\\audio.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\extra\\imbangsolution\\imbang_web\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\extra\\imbangsolution\\imbang_web\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\extra\\imbangsolution\\imbang_web\\model\\subscriptions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\model\\subscriptions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\extra\\imbangsolution\\imbang_web\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\extra\\imbangsolution\\imbang_web\\model\\subscritionmanager.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\model\\subscritionmanager.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\extra\\imbangsolution\\imbang_web\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\ipt_imbang\\ipt102\\imbangsolution\\imbang_web\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\extra\\imbangsolution\\imbang_web\\model\\subscritionmanager.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\model\\subscritionmanager.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF912B5D-8037-40F7-ACC2-DC78BBD20C17}|Imbang_ClassLibrary\\Imbang_ClassLibrary.csproj|c:\\ipt_imbang\\ipt102\\imbangsolution\\imbang_classlibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF912B5D-8037-40F7-ACC2-DC78BBD20C17}|Imbang_ClassLibrary\\Imbang_ClassLibrary.csproj|solutionrelative:imbang_classlibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\extra\\imbangsolution\\imbang_web\\imbang_web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\imbang_web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\ipt_imbang\\ipt102\\imbangsolution\\imbang_web\\model\\subscritionmanager.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\model\\subscritionmanager.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\extra\\imbangsolution\\imbang_web\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\ipt_imbang\\ipt102\\imbangsolution\\imbang_web\\model\\subscriptions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\model\\subscriptions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\extra\\imbangsolution\\imbang_web\\data\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\data\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\extra\\imbangsolution\\imbang_web\\pages\\subscription.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\pages\\subscription.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\extra\\imbangsolution\\imbang_web\\shared\\surveyprompt.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\shared\\surveyprompt.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\extra\\imbangsolution\\imbang_web\\pages\\videos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\pages\\videos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\extra\\imbangsolution\\imbang_web\\pages\\crudindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\pages\\crudindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D518AD53-3AD0-438A-8AF4-3398EA6CC983}|Imbang_Company\\Imbang_Company.sqlproj|C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_Company\\Scripts\\WORKS_ON.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{D518AD53-3AD0-438A-8AF4-3398EA6CC983}|Imbang_Company\\Imbang_Company.sqlproj|solutionrelative:Imbang_Company\\Scripts\\WORKS_ON.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D518AD53-3AD0-438A-8AF4-3398EA6CC983}|Imbang_Company\\Imbang_Company.sqlproj|C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_Company\\Scripts\\PROJECT.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{D518AD53-3AD0-438A-8AF4-3398EA6CC983}|Imbang_Company\\Imbang_Company.sqlproj|solutionrelative:Imbang_Company\\Scripts\\PROJECT.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D518AD53-3AD0-438A-8AF4-3398EA6CC983}|Imbang_Company\\Imbang_Company.sqlproj|C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_Company\\Scripts\\EMPLOYEE.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{D518AD53-3AD0-438A-8AF4-3398EA6CC983}|Imbang_Company\\Imbang_Company.sqlproj|solutionrelative:Imbang_Company\\Scripts\\EMPLOYEE.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\extra\\imbangsolution\\imbang_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\extra\\imbangsolution\\imbang_web\\pages\\crudindex.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\pages\\crudindex.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\extra\\imbangsolution\\imbang_web\\shared\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\shared\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\extra\\imbangsolution\\imbang_web\\wwwroot\\css\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\wwwroot\\css\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\extra\\imbangsolution\\imbang_web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\ipt_imbang\\ipt102\\imbangsolution\\imbang_web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\extra\\imbangsolution\\imbang_web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{D518AD53-3AD0-438A-8AF4-3398EA6CC983}|Imbang_Company\\Imbang_Company.sqlproj|C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Scripts\\DEPARTMENT.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{D518AD53-3AD0-438A-8AF4-3398EA6CC983}|Imbang_Company\\Imbang_Company.sqlproj|solutionrelative:Imbang_Company\\Scripts\\DEPARTMENT.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\extra\\imbangsolution\\imbang_web\\wwwroot\\css\\open-iconic\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\wwwroot\\css\\open-iconic\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{CF912B5D-8037-40F7-ACC2-DC78BBD20C17}|Imbang_ClassLibrary\\Imbang_ClassLibrary.csproj|c:\\ipt_imbang\\ipt102\\imbangsolution\\imbang_classlibrary\\imbang_classlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CF912B5D-8037-40F7-ACC2-DC78BBD20C17}|Imbang_ClassLibrary\\Imbang_ClassLibrary.csproj|solutionrelative:imbang_classlibrary\\imbang_classlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\extra\\imbangsolution\\imbang_web\\wwwroot\\css\\open-iconic\\icon-license||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\wwwroot\\css\\open-iconic\\icon-license||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\ipt_imbang\\ipt102\\imbangsolution\\imbang_web\\data\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\data\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\imbang_ipt\\extra\\imbangsolution\\imbang_web\\wwwroot\\css\\open-iconic\\font-license||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\wwwroot\\css\\open-iconic\\font-license||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{D518AD53-3AD0-438A-8AF4-3398EA6CC983}|Imbang_Company\\Imbang_Company.sqlproj|C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\SubscriptionSystem\\StoredProceduer\\Read.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{D518AD53-3AD0-438A-8AF4-3398EA6CC983}|Imbang_Company\\Imbang_Company.sqlproj|solutionrelative:Imbang_Company\\SubscriptionSystem\\StoredProceduer\\Read.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_Company\\dbo\\Scripts\\EMPLOYEE.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Imbang_Company\\dbo\\Scripts\\EMPLOYEE.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{D518AD53-3AD0-438A-8AF4-3398EA6CC983}|Imbang_Company\\Imbang_Company.sqlproj|C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\SubscriptionSystem\\StoredProceduer\\Delete.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{D518AD53-3AD0-438A-8AF4-3398EA6CC983}|Imbang_Company\\Imbang_Company.sqlproj|solutionrelative:Imbang_Company\\SubscriptionSystem\\StoredProceduer\\Delete.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_Company\\dbo\\Scripts\\DEPARTMENT.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Imbang_Company\\dbo\\Scripts\\DEPARTMENT.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{D518AD53-3AD0-438A-8AF4-3398EA6CC983}|Imbang_Company\\Imbang_Company.sqlproj|C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\SubscriptionSystem\\StoredProceduer\\Create.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{D518AD53-3AD0-438A-8AF4-3398EA6CC983}|Imbang_Company\\Imbang_Company.sqlproj|solutionrelative:Imbang_Company\\SubscriptionSystem\\StoredProceduer\\Create.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Storedprocedure\\SEARCH.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Imbang_Company/True/SqlTable/dbo.SubSystem.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Storedprocedure\\CREATE.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Storedprocedure\\DELETE.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Storedprocedure\\UPDATE.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Storedprocedure\\READ.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Scripts\\DEPT_LOCATION.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D518AD53-3AD0-438A-8AF4-3398EA6CC983}|Imbang_Company\\Imbang_Company.sqlproj|C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_Company\\Scripts\\DEPARTMENT.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{D518AD53-3AD0-438A-8AF4-3398EA6CC983}|Imbang_Company\\Imbang_Company.sqlproj|solutionrelative:Imbang_Company\\Scripts\\DEPARTMENT.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D518AD53-3AD0-438A-8AF4-3398EA6CC983}|Imbang_Company\\Imbang_Company.sqlproj|C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_Company\\Scripts\\DEPENDENT.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{D518AD53-3AD0-438A-8AF4-3398EA6CC983}|Imbang_Company\\Imbang_Company.sqlproj|solutionrelative:Imbang_Company\\Scripts\\DEPENDENT.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D518AD53-3AD0-438A-8AF4-3398EA6CC983}|Imbang_Company\\Imbang_Company.sqlproj|C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_Company\\Scripts\\DEPT_LOCATIONS.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{D518AD53-3AD0-438A-8AF4-3398EA6CC983}|Imbang_Company\\Imbang_Company.sqlproj|solutionrelative:Imbang_Company\\Scripts\\DEPT_LOCATIONS.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|c:\\ipt_imbang\\ipt102\\imbangsolution\\imbang_web\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87D5D75B-E573-4704-8932-07E02A2180CF}|Imbang_web\\Imbang_web.csproj|solutionrelative:imbang_web\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -180,492 +69,182 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_Host.cshtml",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Pages\\_Host.cshtml",
-              "RelativeDocumentMoniker": "Imbang_web\\Pages\\_Host.cshtml",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Pages\\_Host.cshtml",
-              "RelativeToolTip": "Imbang_web\\Pages\\_Host.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Event.razor",
+              "DocumentMoniker": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\Pages\\Event.razor",
+              "RelativeDocumentMoniker": "Imbang_web\\Pages\\Event.razor",
+              "ToolTip": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\Pages\\Event.razor",
+              "RelativeToolTip": "Imbang_web\\Pages\\Event.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-28T15:30:46.965Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Audio.razor",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Pages\\Audio.razor",
-              "RelativeDocumentMoniker": "Imbang_web\\Pages\\Audio.razor",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Pages\\Audio.razor",
-              "RelativeToolTip": "Imbang_web\\Pages\\Audio.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-21T05:42:24.495Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Calculator.razor",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Pages\\Calculator.razor",
-              "RelativeDocumentMoniker": "Imbang_web\\Pages\\Calculator.razor",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Pages\\Calculator.razor",
-              "RelativeToolTip": "Imbang_web\\Pages\\Calculator.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-21T05:42:46.203Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Images.razor",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Pages\\Images.razor",
-              "RelativeDocumentMoniker": "Imbang_web\\Pages\\Images.razor",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Pages\\Images.razor",
-              "RelativeToolTip": "Imbang_web\\Pages\\Images.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-21T05:41:29.649Z",
+              "WhenOpened": "2024-10-29T23:21:07.273Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DEPARTMENT.sql ",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_Company\\Scripts\\DEPARTMENT.sql",
-              "RelativeDocumentMoniker": "Imbang_Company\\Scripts\\DEPARTMENT.sql",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_Company\\Scripts\\DEPARTMENT.sql",
-              "RelativeToolTip": "Imbang_Company\\Scripts\\DEPARTMENT.sql",
+              "DocumentIndex": 10,
+              "Title": "Read.sql",
+              "DocumentMoniker": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\SubscriptionSystem\\StoredProceduer\\Read.sql",
+              "RelativeDocumentMoniker": "Imbang_Company\\SubscriptionSystem\\StoredProceduer\\Read.sql",
+              "ToolTip": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\SubscriptionSystem\\StoredProceduer\\Read.sql\r\n(localdb)\\ProjectModels.Imbang_Company_1\r\n(DESKTOP-P4FL4QG\\user)",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-24T08:05:36.106Z",
+              "WhenOpened": "2024-10-29T10:19:27.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DEPENDENT.sql ",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_Company\\Scripts\\DEPENDENT.sql",
-              "RelativeDocumentMoniker": "Imbang_Company\\Scripts\\DEPENDENT.sql",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_Company\\Scripts\\DEPENDENT.sql",
-              "RelativeToolTip": "Imbang_Company\\Scripts\\DEPENDENT.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-24T08:03:36.046Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DEPT_LOCATIONS.sql ",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_Company\\Scripts\\DEPT_LOCATIONS.sql",
-              "RelativeDocumentMoniker": "Imbang_Company\\Scripts\\DEPT_LOCATIONS.sql",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_Company\\Scripts\\DEPT_LOCATIONS.sql",
-              "RelativeToolTip": "Imbang_Company\\Scripts\\DEPT_LOCATIONS.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-28T00:18:19.682Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Pages\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Imbang_web\\Pages\\_Layout.cshtml",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Pages\\_Layout.cshtml",
-              "RelativeToolTip": "Imbang_web\\Pages\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "SubscriptionSystem.razor",
+              "DocumentMoniker": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\Pages\\SubscriptionSystem.razor",
+              "RelativeDocumentMoniker": "Imbang_web\\Pages\\SubscriptionSystem.razor",
+              "ToolTip": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\Pages\\SubscriptionSystem.razor",
+              "RelativeToolTip": "Imbang_web\\Pages\\SubscriptionSystem.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-21T07:29:28.135Z"
+              "WhenOpened": "2024-10-29T06:57:36.714Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "Subscription.cs",
+              "DocumentMoniker": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\Data\\Subscription.cs",
+              "RelativeDocumentMoniker": "Imbang_web\\Data\\Subscription.cs",
+              "ToolTip": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\Data\\Subscription.cs",
+              "RelativeToolTip": "Imbang_web\\Data\\Subscription.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T10:19:55.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_ClassLibrary\\Class1.cs",
+              "RelativeDocumentMoniker": "Imbang_ClassLibrary\\Class1.cs",
+              "ToolTip": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_ClassLibrary\\Class1.cs",
+              "RelativeToolTip": "Imbang_ClassLibrary\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T07:01:02.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Subscriptions.cshtml",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Model\\Subscriptions.cshtml",
+              "DocumentMoniker": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\Model\\Subscriptions.cshtml",
               "RelativeDocumentMoniker": "Imbang_web\\Model\\Subscriptions.cshtml",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Model\\Subscriptions.cshtml",
+              "ToolTip": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\Model\\Subscriptions.cshtml",
               "RelativeToolTip": "Imbang_web\\Model\\Subscriptions.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-28T18:11:11.943Z"
+              "WhenOpened": "2024-10-29T10:20:00.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "Imbang_web\\Pages\\Index.razor",
+              "ToolTip": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\Pages\\Index.razor",
+              "RelativeToolTip": "Imbang_web\\Pages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T07:59:56.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Imbang_ClassLibrary.csproj",
+              "DocumentMoniker": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_ClassLibrary\\Imbang_ClassLibrary.csproj",
+              "RelativeDocumentMoniker": "Imbang_ClassLibrary\\Imbang_ClassLibrary.csproj",
+              "ToolTip": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_ClassLibrary\\Imbang_ClassLibrary.csproj",
+              "RelativeToolTip": "Imbang_ClassLibrary\\Imbang_ClassLibrary.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-29T10:20:23.374Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Event.razor",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Pages\\Event.razor",
-              "RelativeDocumentMoniker": "Imbang_web\\Pages\\Event.razor",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Pages\\Event.razor",
-              "RelativeToolTip": "Imbang_web\\Pages\\Event.razor",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Title": "SubscritionManager.cshtml",
+              "DocumentMoniker": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\Model\\SubscritionManager.cshtml",
+              "RelativeDocumentMoniker": "Imbang_web\\Model\\SubscritionManager.cshtml",
+              "ToolTip": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\Model\\SubscritionManager.cshtml",
+              "RelativeToolTip": "Imbang_web\\Model\\SubscritionManager.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-21T05:41:04.191Z"
+              "WhenOpened": "2024-10-29T10:20:03.715Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Imbang_web.csproj",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Imbang_web.csproj",
-              "RelativeDocumentMoniker": "Imbang_web\\Imbang_web.csproj",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Imbang_web.csproj",
-              "RelativeToolTip": "Imbang_web\\Imbang_web.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-28T17:56:24.227Z"
+              "DocumentIndex": 7,
+              "Title": "DEPARTMENT.sql",
+              "DocumentMoniker": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Scripts\\DEPARTMENT.sql",
+              "RelativeDocumentMoniker": "Imbang_Company\\Scripts\\DEPARTMENT.sql",
+              "ToolTip": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Scripts\\DEPARTMENT.sql",
+              "RelativeToolTip": "Imbang_Company\\Scripts\\DEPARTMENT.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-29T10:54:47.023Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Index.razor",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Pages\\Index.razor",
-              "RelativeDocumentMoniker": "Imbang_web\\Pages\\Index.razor",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Pages\\Index.razor",
-              "RelativeToolTip": "Imbang_web\\Pages\\Index.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-21T05:47:53.592Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Shared\\NavMenu.razor",
-              "RelativeDocumentMoniker": "Imbang_web\\Shared\\NavMenu.razor",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Shared\\NavMenu.razor",
-              "RelativeToolTip": "Imbang_web\\Shared\\NavMenu.razor",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAuwBIAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-21T05:43:58.378Z"
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\appsettings.json",
+              "RelativeDocumentMoniker": "Imbang_web\\appsettings.json",
+              "ToolTip": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\appsettings.json",
+              "RelativeToolTip": "Imbang_web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-29T10:55:02.013Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "SubscritionManager.cshtml",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Model\\SubscritionManager.cshtml",
-              "RelativeDocumentMoniker": "Imbang_web\\Model\\SubscritionManager.cshtml",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Model\\SubscritionManager.cshtml",
-              "RelativeToolTip": "Imbang_web\\Model\\SubscritionManager.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-28T17:58:38.288Z"
+              "Title": "Delete.sql",
+              "DocumentMoniker": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\SubscriptionSystem\\StoredProceduer\\Delete.sql",
+              "RelativeDocumentMoniker": "Imbang_Company\\SubscriptionSystem\\StoredProceduer\\Delete.sql",
+              "ToolTip": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\SubscriptionSystem\\StoredProceduer\\Delete.sql\r\n(localdb)\\ProjectModels.Imbang_Company_1\r\n(DESKTOP-P4FL4QG\\user)",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-29T10:19:24.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.sql",
+              "DocumentMoniker": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\SubscriptionSystem\\StoredProceduer\\Create.sql",
+              "RelativeDocumentMoniker": "Imbang_Company\\SubscriptionSystem\\StoredProceduer\\Create.sql",
+              "ToolTip": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\SubscriptionSystem\\StoredProceduer\\Create.sql\r\n(localdb)\\ProjectModels.Imbang_Company_1\r\n(DESKTOP-P4FL4QG\\user)",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-29T10:19:18.706Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "SubscritionManager.cshtml.cs",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Model\\SubscritionManager.cshtml.cs",
-              "RelativeDocumentMoniker": "Imbang_web\\Model\\SubscritionManager.cshtml.cs",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Model\\SubscritionManager.cshtml.cs",
-              "RelativeToolTip": "Imbang_web\\Model\\SubscritionManager.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T18:03:11.151Z"
+              "Title": "dbo.SubSystem.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Imbang_Company/True/SqlTable/dbo.SubSystem.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Imbang_Company/True/SqlTable/dbo.SubSystem.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-29T08:18:19.828Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Subscription.razor",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Pages\\Subscription.razor",
-              "RelativeDocumentMoniker": "Imbang_web\\Pages\\Subscription.razor",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Pages\\Subscription.razor",
-              "RelativeToolTip": "Imbang_web\\Pages\\Subscription.razor",
+              "DocumentIndex": 14,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\_Imports.razor",
+              "RelativeDocumentMoniker": "Imbang_web\\_Imports.razor",
+              "ToolTip": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\_Imports.razor",
+              "RelativeToolTip": "Imbang_web\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-28T15:40:53.292Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Subscription.cs",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Data\\Subscription.cs",
-              "RelativeDocumentMoniker": "Imbang_web\\Data\\Subscription.cs",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Data\\Subscription.cs",
-              "RelativeToolTip": "Imbang_web\\Data\\Subscription.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAuwCYAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T15:32:38.086Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Shared\\MainLayout.razor",
-              "RelativeDocumentMoniker": "Imbang_web\\Shared\\MainLayout.razor",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Shared\\MainLayout.razor",
-              "RelativeToolTip": "Imbang_web\\Shared\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-21T07:37:17.329Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "SurveyPrompt.razor",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Shared\\SurveyPrompt.razor",
-              "RelativeDocumentMoniker": "Imbang_web\\Shared\\SurveyPrompt.razor",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Shared\\SurveyPrompt.razor",
-              "RelativeToolTip": "Imbang_web\\Shared\\SurveyPrompt.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-28T00:20:45.508Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Videos.razor",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Pages\\Videos.razor",
-              "RelativeDocumentMoniker": "Imbang_web\\Pages\\Videos.razor",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Pages\\Videos.razor",
-              "RelativeToolTip": "Imbang_web\\Pages\\Videos.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-21T05:41:51.675Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CrudIndex.cshtml",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Pages\\CrudIndex.cshtml",
-              "RelativeDocumentMoniker": "Imbang_web\\Pages\\CrudIndex.cshtml",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Pages\\CrudIndex.cshtml",
-              "RelativeToolTip": "Imbang_web\\Pages\\CrudIndex.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-27T13:15:12.188Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "WORKS_ON.sql",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_Company\\Scripts\\WORKS_ON.sql",
-              "RelativeDocumentMoniker": "Imbang_Company\\Scripts\\WORKS_ON.sql",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_Company\\Scripts\\WORKS_ON.sql",
-              "RelativeToolTip": "Imbang_Company\\Scripts\\WORKS_ON.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-24T08:02:38.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "PROJECT.sql",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_Company\\Scripts\\PROJECT.sql",
-              "RelativeDocumentMoniker": "Imbang_Company\\Scripts\\PROJECT.sql",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_Company\\Scripts\\PROJECT.sql",
-              "RelativeToolTip": "Imbang_Company\\Scripts\\PROJECT.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-28T00:18:44.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Program.cs",
-              "RelativeDocumentMoniker": "Imbang_web\\Program.cs",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Program.cs",
-              "RelativeToolTip": "Imbang_web\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAWwB8AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T02:39:01.104Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "SEARCH.sql",
-              "DocumentMoniker": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Storedprocedure\\SEARCH.sql",
-              "RelativeDocumentMoniker": "..\\..\\..\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Storedprocedure\\SEARCH.sql",
-              "ToolTip": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Storedprocedure\\SEARCH.sql",
-              "RelativeToolTip": "..\\..\\..\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Storedprocedure\\SEARCH.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-27T13:13:45.198Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "EMPLOYEE.sql",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_Company\\Scripts\\EMPLOYEE.sql",
-              "RelativeDocumentMoniker": "Imbang_Company\\Scripts\\EMPLOYEE.sql",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_Company\\Scripts\\EMPLOYEE.sql",
-              "RelativeToolTip": "Imbang_Company\\Scripts\\EMPLOYEE.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-24T08:02:59.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "CrudIndex.cshtml.cs",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Pages\\CrudIndex.cshtml.cs",
-              "RelativeDocumentMoniker": "Imbang_web\\Pages\\CrudIndex.cshtml.cs",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Pages\\CrudIndex.cshtml.cs",
-              "RelativeToolTip": "Imbang_web\\Pages\\CrudIndex.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T13:16:21.709Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "CREATE.sql",
-              "DocumentMoniker": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Storedprocedure\\CREATE.sql",
-              "RelativeDocumentMoniker": "..\\..\\..\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Storedprocedure\\CREATE.sql",
-              "ToolTip": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Storedprocedure\\CREATE.sql",
-              "RelativeToolTip": "..\\..\\..\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Storedprocedure\\CREATE.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-24T09:05:53.209Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "DELETE.sql",
-              "DocumentMoniker": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Storedprocedure\\DELETE.sql",
-              "RelativeDocumentMoniker": "..\\..\\..\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Storedprocedure\\DELETE.sql",
-              "ToolTip": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Storedprocedure\\DELETE.sql",
-              "RelativeToolTip": "..\\..\\..\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Storedprocedure\\DELETE.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-24T09:06:32.877Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "UPDATE.sql",
-              "DocumentMoniker": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Storedprocedure\\UPDATE.sql",
-              "RelativeDocumentMoniker": "..\\..\\..\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Storedprocedure\\UPDATE.sql",
-              "ToolTip": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Storedprocedure\\UPDATE.sql",
-              "RelativeToolTip": "..\\..\\..\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Storedprocedure\\UPDATE.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-24T09:06:09.233Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "NavMenu.razor.css",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Shared\\NavMenu.razor.css",
-              "RelativeDocumentMoniker": "Imbang_web\\Shared\\NavMenu.razor.css",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\Shared\\NavMenu.razor.css",
-              "RelativeToolTip": "Imbang_web\\Shared\\NavMenu.razor.css",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADsAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-24T07:54:10.908Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "READ.sql",
-              "DocumentMoniker": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Storedprocedure\\READ.sql",
-              "RelativeDocumentMoniker": "..\\..\\..\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Storedprocedure\\READ.sql",
-              "ToolTip": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Storedprocedure\\READ.sql",
-              "RelativeToolTip": "..\\..\\..\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Storedprocedure\\READ.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-24T09:07:07.011Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "bootstrap.min.css",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
-              "RelativeDocumentMoniker": "Imbang_web\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
-              "RelativeToolTip": "Imbang_web\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-23T08:57:44.576Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\appsettings.json",
-              "RelativeDocumentMoniker": "Imbang_web\\appsettings.json",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\appsettings.json",
-              "RelativeToolTip": "Imbang_web\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-25T02:39:10.084Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "DEPT_LOCATION.sql",
-              "DocumentMoniker": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Scripts\\DEPT_LOCATION.sql",
-              "RelativeDocumentMoniker": "..\\..\\..\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Scripts\\DEPT_LOCATION.sql",
-              "ToolTip": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Scripts\\DEPT_LOCATION.sql",
-              "RelativeToolTip": "..\\..\\..\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_Company\\Scripts\\DEPT_LOCATION.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-24T08:03:57.43Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "FONT-LICENSE",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-              "RelativeDocumentMoniker": "Imbang_web\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-              "RelativeToolTip": "Imbang_web\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-23T09:08:51.631Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ICON-LICENSE",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
-              "RelativeDocumentMoniker": "Imbang_web\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
-              "RelativeToolTip": "Imbang_web\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-23T09:08:54.694Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "Imbang_web\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "Imbang_web\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-23T05:13:06.792Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "README.md",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\open-iconic\\README.md",
-              "RelativeDocumentMoniker": "Imbang_web\\wwwroot\\css\\open-iconic\\README.md",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_web\\wwwroot\\css\\open-iconic\\README.md",
-              "RelativeToolTip": "Imbang_web\\wwwroot\\css\\open-iconic\\README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-10-23T09:08:57.033Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "EMPLOYEE.sql",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_Company\\dbo\\Scripts\\EMPLOYEE.sql",
-              "RelativeDocumentMoniker": "Imbang_Company\\dbo\\Scripts\\EMPLOYEE.sql",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_Company\\dbo\\Scripts\\EMPLOYEE.sql",
-              "RelativeToolTip": "Imbang_Company\\dbo\\Scripts\\EMPLOYEE.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-23T01:50:30.344Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "DEPARTMENT.sql",
-              "DocumentMoniker": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_Company\\dbo\\Scripts\\DEPARTMENT.sql",
-              "RelativeDocumentMoniker": "Imbang_Company\\dbo\\Scripts\\DEPARTMENT.sql",
-              "ToolTip": "C:\\IMBANG_IPT\\extra\\IMBANGSOLUTION\\Imbang_Company\\dbo\\Scripts\\DEPARTMENT.sql",
-              "RelativeToolTip": "Imbang_Company\\dbo\\Scripts\\DEPARTMENT.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-23T01:46:23.136Z"
+              "WhenOpened": "2024-10-29T07:00:40.713Z"
             }
           ]
         }
