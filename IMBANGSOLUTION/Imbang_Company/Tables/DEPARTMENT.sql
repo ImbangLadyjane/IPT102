@@ -1,0 +1,13 @@
+﻿CREATE TABLE [dbo].[DEPARTMENT]
+(
+   [Dname]          VARCHAR(15) NOT NULL,
+   [Dnumber]        INT         NOT NULL,
+   [Mgr_ssn]        CHAR(9)     NOT NULL,
+   [Mgr_start_date] DATE, 
+   CONSTRAINT [PK_DEPARTMENT_Dnumber] PRIMARY KEY (Dnumber),
+   CONSTRAINT [UX_DEPARTMENT_Dname] UNIQUE (Dname),
+   CONSTRAINT [FK_DEPARTMENT_Ssn] FOREIGN KEY (Mgr_ssn) REFERENCES EMPLOYEE(Ssn)
+);
+GO 
+
+CREATE NONCLUSTERED INDEX [IX_DEPARTMENT_Name] ON [dbo].[DEPARTMENT] ([Dname] ASC)

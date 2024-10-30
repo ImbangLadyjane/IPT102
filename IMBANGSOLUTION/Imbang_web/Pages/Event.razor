@@ -1,0 +1,241 @@
+﻿@page "/Event"
+
+@code {
+    // Model for registered person
+    public class Person
+    {
+        public int Id { get; set; }
+        public string Fname { get; set; }
+        public string Lname { get; set; }
+        public string Email { get; set; }
+    }
+    private List<Person> submittedInformation = new List<Person>();
+    private Person newPerson = new Person();
+    private int? editingPersonId = null;
+    private string eventDescription = "Learn the secrets to traveling in Mindanao and discovering top hidden locations.";
+    private bool showRegistrationForm = false;
+    private string emailErrorMessage = ""; 
+
+    private void AddOrUpdatePerson()
+    {
+        // Check if the email is valid
+        if (string.IsNullOrWhiteSpace(newPerson.Email) || !newPerson.Email.Contains("@"))
+        {
+            emailErrorMessage = "Please include an '@' in the email address. 'Jane' is missing an '@'.";
+            return; 
+        }
+
+        emailErrorMessage = ""; 
+
+        if (editingPersonId.HasValue)
+        {
+            var person = submittedInformation.First(p => p.Id == editingPersonId.Value);
+            person.Fname = newPerson.Fname;
+            person.Lname = newPerson.Lname;
+            person.Email = newPerson.Email;
+            editingPersonId = null;
+        }
+        else
+        {
+            newPerson.Id = submittedInformation.Count > 0 ? submittedInformation.Max(p => p.Id) + 1 : 1;
+            submittedInformation.Add(newPerson);
+        }
+
+        newPerson = new Person();
+    }
+
+    private void EditPerson(Person person)
+    {
+        editingPersonId = person.Id;
+        newPerson.Fname = person.Fname;
+        newPerson.Lname = person.Lname;
+        newPerson.Email = person.Email;
+    }
+
+    private void DeletePerson(int id)
+    {
+        submittedInformation.RemoveAll(p => p.Id == id);
+    }
+
+    private void ToggleRegistrationForm()
+    {
+        showRegistrationForm = !showRegistrationForm;
+    }
+}
+
+<h1 style="font-size: 36px; color: black; text-shadow: 2px 2px 4px black; text-align: center;">
+    <strong>SUBSCRIBE NOW...</strong>
+</h1>
+<div class="event-description">
+    <p class="event-info">@eventDescription</p>
+    <button class="toggle-button" @onclick="ToggleRegistrationForm">
+        @((showRegistrationForm ? "Hide" : "Show") + " Registration Form")
+    </button>
+</div>
+
+@if (showRegistrationForm)
+{
+    <div class="registration-container">
+        <h4>Registration Form</h4>
+        <EditForm Model="@newPerson" OnValidSubmit="@AddOrUpdatePerson">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+
+            <div class="form-group">
+                <label for="fname">First Name:</label>
+                <InputText id="fname" @bind-Value="newPerson.Fname" class="form-input" />
+            </div>
+            <div class="form-group">
+                <label for="lname">Last Name:</label>
+                <InputText id="lname" @bind-Value="newPerson.Lname" class="form-input" />
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <InputText id="email" @bind-Value="newPerson.Email" class="form-input" />
+                @if (!string.IsNullOrEmpty(emailErrorMessage))
+                {
+                    <p class="error-message" style="color:red;">@emailErrorMessage</p>
+                }
+            </div>
+            <button type="submit" class="submit-button">@((editingPersonId.HasValue) ? "Update" : "Click Here to Submit")</button>
+        </EditForm>
+
+        <h4 class="submitted-info-header">Submitted Information</h4>
+        <ul>
+            @foreach (var person in submittedInformation)
+            {
+                <li class="person-item">
+                    <div class="person-details">
+                        <strong>First Name:</strong> @person.Fname<br />
+                        <strong>Last Name:</strong> @person.Lname<br />
+                        <strong>Email:</strong> @person.Email
+                    </div>
+                    <div class="button-group">
+                        <button class="edit-button" @onclick="() => EditPerson(person)">Edit</button>
+                        <button class="delete-button" @onclick="() => DeletePerson(person.Id)">Delete</button>
+                    </div>
+                </li>
+            }
+        </ul>
+    </div>
+}
+
+<style>
+    .registration-container {
+        background-color: rgba(0, 102, 204, 0.8);
+        background-image: url('https://img.freepik.com/premium-photo/beautiful-tropical-beach-wallpaper_934930-321.jpg?w=740');
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        max-width: 800px;
+        margin: auto;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 400px; /* Set a minimum height */
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    .form-input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        color: black;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+        .form-input::placeholder {
+            color: black;
+        }
+
+    .submit-button {
+        background-color: #00796b;
+        color: black;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+        .submit-button:hover {
+            background-color: #00796b;
+        }
+
+    .person-details {
+        color: black;
+    }
+
+    .button-group {
+        display: flex;
+        gap: 10px;
+    }
+
+    .edit-button {
+        background-color: #00796b;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        .edit-button:hover {
+            background-color: #1976D2;
+        }
+
+    .delete-button {
+        background-color: #00796b;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        .delete-button:hover {
+            background-color: #d32f2f;
+        }
+
+    .event-description {
+        text-align: center;
+        margin-bottom: 20px;
+        background-color: transparent;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .event-info {
+        color: black;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .toggle-button {
+        background-color: #00796b;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .toggle-button:hover {
+            background-color: #45a049;
+        }
+
+    .submitted-info-header {
+        color: black; /* Set the header text color to black */
+    }
+
+    .error-message {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+</style>
