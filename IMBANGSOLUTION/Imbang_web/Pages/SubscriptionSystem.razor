@@ -1,0 +1,205 @@
+﻿@page "/SubscriptionSystem"
+
+<h1 style="font-size: 50px; color: black; text-shadow: 2px 2px 4px white, 2px 2px 4px black; text-align: center;">
+    <strong>SUBSCRIPTION...</strong>
+</h1>
+
+<h1 class="text-warning">@Error</h1>
+
+<!-- Search and Create Button Section -->
+<div class="d-flex align-items-center mb-3">
+    <button class="btn btn-success me-2" @onclick="Create_Method">Create</button>
+    <input class="form-control w-auto me-2" placeholder="Search..." @bind="Search" />
+    <button class="btn btn-info" @onclick="Read">Search</button>
+</div>
+
+<!-- Display Forms-->
+@if (Create_Btn == true)
+{
+    <center>
+        <table class="table text-dark rounded" style="background-color: lightblue;">
+            <tr>
+                <td>First Name</td>
+                <td><input class="form-control" @bind="class1.FirstName" /></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input class="form-control" @bind="class1.LastName" /></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input class="form-control" @bind="class1.Email" /></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button class="btn btn-primary" @onclick="Create">Create</button> <!-- Trigger Create Method -->
+                </td>
+            </tr>
+        </table>
+    </center>
+}
+
+@if (Update_Btn == true)
+{
+    <center>
+        <table class="table bg-light text-dark rounded shadow">
+            <tr><td class="fw-bold text-primary">ID: @class1.Id</td></tr>
+            <tr>
+                <td>First Name</td>
+                <td><input class="form-control" @bind="class1.FirstName" /></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input class="form-control" @bind="class1.LastName" /></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input class="form-control" @bind="class1.Email" /></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button class="btn btn-warning" @onclick="Update">Update</button> <!-- Trigger Update Method -->
+                </td>
+            </tr>
+        </table>
+    </center>
+}
+
+<!-- list of subscribers -->
+<table class="table table-bordered table-striped bg-light text-dark rounded shadow">
+    <thead class="table-primary">
+        <tr>
+            <th>ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Update</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var a in Class_List)
+        {
+            <tr>
+                <td>@a.Id</td>
+                <td>@a.FirstName</td>
+                <td>@a.LastName</td>
+                <td>@a.Email</td>
+                <td><button class="btn btn-outline-primary btn-sm" @onclick="() => Update_Method(a.Id, a.FirstName, a.LastName, a.Email)">Edit</button></td>
+                <td><button class="btn btn-outline-danger btn-sm" @onclick="() => Delete(a.Id)">Delete</button></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    public bool Create_Btn = false;
+    public bool Update_Btn = false;
+
+    public string Search = "";
+    public string Error;
+
+    private string ConnectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Imbang_Company_1;Integrated Security=True;Connect Timeout=60;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+
+    // Methods
+    void Create_Method()
+    {
+        Create_Btn = !Create_Btn;
+    }
+
+    void Update_Method(int Id, string FirstName, string LastName, string Email)
+    {
+        if (!Update_Btn)
+        {
+            Update_Btn = true;
+            class1.Id = Id;
+            class1.FirstName = FirstName;
+            class1.LastName = LastName;
+            class1.Email = Email;
+        }
+        else
+        {
+            Update_Btn = false;
+        }
+    }
+
+    // Class1 instance hold form data for create and update operations
+    public Class1 class1 { get; set; }
+
+    public IEnumerable<Class1> Class_List { get; set; }
+
+    protected override void OnInitialized()
+    {
+        class1 = new Class1();
+        Read(); 
+    }
+
+    public void Create()
+    {
+        if (!IsEmailValid(class1.Email))
+        {
+            Error = "Invalid email format. Email must contain '@'.";
+            return;
+        }
+
+        // Database connection and stored procedure call for creating entry
+        using var con = new SqlConnection(ConnectionString);
+        con.Query("Create", new
+        {
+            @FirstName = class1.FirstName,
+            @LastName = class1.LastName,
+            @Email = class1.Email
+        }, commandType: CommandType.StoredProcedure);
+        Error = $"Created {class1.FirstName}";
+        Create_Btn = false;
+        Read(); 
+    }
+
+    public void Read()
+    {
+        using var con = new SqlConnection(ConnectionString);
+        try
+        {
+            Class_List = con.Query<Class1>("Read", new { @Search = $"%{Search}%" }, commandType: CommandType.StoredProcedure);
+            Error = $"Searched {Search}";
+        }
+        catch (Exception ex)
+        {
+            Error = ex.Message; 
+        }
+    }
+
+    public void Delete(int Id)
+    {
+        using var con = new SqlConnection(ConnectionString);
+        con.Query("Delete", new { @Id = Id }, commandType: CommandType.StoredProcedure);
+        Read();
+    }
+
+    public void Update()
+    {
+        if (!IsEmailValid(class1.Email))
+        {
+            Error = "Invalid email format. Email must contain '@'.";
+            return;
+        }
+
+        // Database connection and stored procedure call for updating entry
+        using var con = new SqlConnection(ConnectionString);
+        con.Query("Update", new
+        {
+            @Id = class1.Id,
+            @FirstName = class1.FirstName,
+            @LastName = class1.LastName,
+            @Email = class1.Email
+        }, commandType: CommandType.StoredProcedure);
+        Read(); 
+        Update_Btn = false;
+    }
+
+    private bool IsEmailValid(string email)
+    {
+        return email.Contains("@");
+    }
+}
