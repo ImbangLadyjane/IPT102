@@ -1,0 +1,50 @@
+﻿@page "/interactive"
+@using Imbang_web.Data
+
+<p style=" width: 50%;text-align: left; margin-right: 20px; color: black    ;">
+    First Name:                @Input.FirstName<br /><br />
+    Last Name:              @Input.LastName<br><br>
+    Email:               @Input.Email<br><br>
+
+
+</p>
+
+<EditForm Model="Input" OnInvalidSubmit="SubmitSubscriptionData" name="subscription-form" method="Post">
+    <!-- Layout for form fields -->
+    <div class="row">
+        <div class=" col-2">
+            <div class="login-container">
+                <InputText @bind-Value="Input.FirstName"
+                           class=" form-control" />
+                <label class=" form-label" for=" Input.Firstname">First Name</label>
+
+                <InputText @bind-Value="Input.LastName"
+                           class=" form-control" />
+                <label class=" form-label" for=" Input.LastName">Last Name</label>
+
+                <InputText @bind-Value="Input.Email"
+                           class=" form-control" />
+                <label class=" form-label" for=" Input.Email">Email</label>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <button class=" btn btn-primary" type="Submit"> Save</button>
+    <button class=" btn btn-secondary" type="button" @onclick="NewSubscription">New</button>
+</EditForm>
+
+
+@code
+{
+    private SubscriptionData Input { get; set; } = new();
+    private const string textRoute = "/Interactive";
+    private bool showSubscriptionData;
+    private void NewSubscription() => Input = new();
+    private void SubmitSubscriptionData()
+    {
+        showSubscriptionData = true;
+    }
+}

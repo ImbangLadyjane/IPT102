@@ -46,3 +46,7 @@ C:\IPT_IMBANG\IPT102\IMBANGSOLUTION\Imbang_ClassLibrary\obj\Debug\net6.0\Imbang_
 C:\IPT_IMBANG\IPT102\IMBANGSOLUTION\Imbang_ClassLibrary\obj\Debug\net6.0\refint\Imbang_ClassLibrary.dll
 C:\IPT_IMBANG\IPT102\IMBANGSOLUTION\Imbang_ClassLibrary\obj\Debug\net6.0\Imbang_ClassLibrary.pdb
 C:\IPT_IMBANG\IPT102\IMBANGSOLUTION\Imbang_ClassLibrary\obj\Debug\net6.0\ref\Imbang_ClassLibrary.dll
+C:\IPT_IMBANG\IPT102\IMBANGSOLUTION\Imbang_ClassLibrary\bin\Debug\net6.0\Imbangcompany.dll
+C:\IPT_IMBANG\IPT102\IMBANGSOLUTION\Imbang_ClassLibrary\bin\Debug\net6.0\Imbangcompany.pdb
+C:\IPT_IMBANG\IPT102\IMBANGSOLUTION\Imbang_ClassLibrary\obj\Debug\net6.0\Imbang_ClassLibrary.csproj.AssemblyReference.cache
+C:\IPT_IMBANG\IPT102\IMBANGSOLUTION\Imbang_ClassLibrary\obj\Debug\net6.0\Imbang_C.C8DE0767.Up2Date

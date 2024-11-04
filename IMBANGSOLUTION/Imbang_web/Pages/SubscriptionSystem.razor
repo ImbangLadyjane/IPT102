@@ -1,11 +1,10 @@
 ﻿@page "/SubscriptionSystem"
 
 <h1 style="font-size: 50px; color: black; text-shadow: 2px 2px 4px white, 2px 2px 4px black; text-align: center;">
-    <strong>SUBSCRIPTION...</strong>
+    <strong>CRUD</strong>
 </h1>
 
 <h1 class="text-warning">@Error</h1>
-
 <!-- Search and Create Button Section -->
 <div class="d-flex align-items-center mb-3">
     <button class="btn btn-success me-2" @onclick="Create_Method">Create</button>
@@ -58,7 +57,7 @@
             </tr>
             <tr>
                 <td colspan="2">
-                    <button class="btn btn-warning" @onclick="Update">Update</button> <!-- Trigger Update Method -->
+                    <button class="btn btn-warning" @onclick="Update">Update</button> 
                 </td>
             </tr>
         </table>
@@ -93,21 +92,25 @@
     </tbody>
 </table>
 
+
 @code {
+   
     public bool Create_Btn = false;
     public bool Update_Btn = false;
 
+   
     public string Search = "";
     public string Error;
 
     private string ConnectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Imbang_Company_1;Integrated Security=True;Connect Timeout=60;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
-
+                            
     // Methods
     void Create_Method()
     {
         Create_Btn = !Create_Btn;
     }
 
+    //INITIALIZE THE UPDATE FORM
     void Update_Method(int Id, string FirstName, string LastName, string Email)
     {
         if (!Update_Btn)
@@ -185,7 +188,6 @@
             return;
         }
 
-        // Database connection and stored procedure call for updating entry
         using var con = new SqlConnection(ConnectionString);
         con.Query("Update", new
         {

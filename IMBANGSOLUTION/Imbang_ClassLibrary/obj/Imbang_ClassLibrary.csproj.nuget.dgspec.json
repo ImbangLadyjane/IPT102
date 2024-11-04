@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\IMBANGSOLUTION\\Imbang_ClassLibrary\\Imbang_ClassLibrary.csproj": {}
+    "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_ClassLibrary\\Imbang_ClassLibrary.csproj": {}
   },
   "projects": {
-    "E:\\IMBANGSOLUTION\\Imbang_ClassLibrary\\Imbang_ClassLibrary.csproj": {
+    "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_ClassLibrary\\Imbang_ClassLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\IMBANGSOLUTION\\Imbang_ClassLibrary\\Imbang_ClassLibrary.csproj",
+        "projectUniqueName": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_ClassLibrary\\Imbang_ClassLibrary.csproj",
         "projectName": "Imbang_ClassLibrary",
-        "projectPath": "E:\\IMBANGSOLUTION\\Imbang_ClassLibrary\\Imbang_ClassLibrary.csproj",
+        "projectPath": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_ClassLibrary\\Imbang_ClassLibrary.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\IMBANGSOLUTION\\Imbang_ClassLibrary\\obj\\",
+        "outputPath": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_ClassLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

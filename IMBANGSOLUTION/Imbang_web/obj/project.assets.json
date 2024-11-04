@@ -526,11 +526,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\IMBANGSOLUTION\\Imbang_web\\Imbang_web.csproj",
+      "projectUniqueName": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\Imbang_web.csproj",
       "projectName": "Imbang_web",
-      "projectPath": "E:\\IMBANGSOLUTION\\Imbang_web\\Imbang_web.csproj",
+      "projectPath": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\Imbang_web.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "E:\\IMBANGSOLUTION\\Imbang_web\\obj\\",
+      "outputPath": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -547,8 +547,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\IMBANGSOLUTION\\Imbang_ClassLibrary\\Imbang_ClassLibrary.csproj": {
-              "projectPath": "E:\\IMBANGSOLUTION\\Imbang_ClassLibrary\\Imbang_ClassLibrary.csproj"
+            "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_ClassLibrary\\Imbang_ClassLibrary.csproj": {
+              "projectPath": "C:\\IPT_IMBANG\\IPT102\\IMBANGSOLUTION\\Imbang_ClassLibrary\\Imbang_ClassLibrary.csproj"
             }
           }
         }
