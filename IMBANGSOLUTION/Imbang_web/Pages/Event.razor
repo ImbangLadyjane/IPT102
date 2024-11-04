@@ -1,130 +1,134 @@
 ﻿@page "/Event"
 
-@code {
-    public class Person
-    {
-        public int Id { get; set; }
-        public string Fname { get; set; }
-        public string Lname { get; set; }
-        public string Email { get; set; }
-        public string Message { get; set; } 
-    }
-    private List<Person> submittedInformation = new List<Person>();
-    private Person newPerson = new Person();
-    private int? editingPersonId = null;
-    private string eventDescription = "Reach out to learn about travel in Mindanao, hidden destinations, or send your inquiries.";
-    private bool showRegistrationForm = false;
-    private string emailErrorMessage = "";
-
-    private void AddOrUpdatePerson()
-    {
-        if (string.IsNullOrWhiteSpace(newPerson.Email) || !newPerson.Email.Contains("@"))
+ @code {
+        // Define the Person class to store contact information
+        public class Person
         {
-            emailErrorMessage = "Please include an '@' in the email address.";
-            return;
+            public int Id { get; set; }
+            public string Fname { get; set; }
+            public string Lname { get; set; }
+            public string Email { get; set; }
+            public string Message { get; set; }
         }
 
-        emailErrorMessage = "";
-
-        if (editingPersonId.HasValue)
+        // List to hold submitted inquiries
+        private List<Person> submittedInformation = new List<Person>();
+        private Person newPerson = new Person();
+        private int? editingPersonId = null;
+        private string eventDescription = "Reach out to learn about travel in Mindanao, hidden destinations, or send your inquiries.";
+        private bool showRegistrationForm = false;
+        private string emailErrorMessage = "";
+        private void AddOrUpdatePerson()
         {
-            var person = submittedInformation.First(p => p.Id == editingPersonId.Value);
-            person.Fname = newPerson.Fname;
-            person.Lname = newPerson.Lname;
-            person.Email = newPerson.Email;
-            person.Message = newPerson.Message;
-            editingPersonId = null;
-        }
-        else
-        {
-            newPerson.Id = submittedInformation.Count > 0 ? submittedInformation.Max(p => p.Id) + 1 : 1;
-            submittedInformation.Add(newPerson);
-        }
-
-        newPerson = new Person();
-    }
-
-    private void EditPerson(Person person)
-    {
-        editingPersonId = person.Id;
-        newPerson.Fname = person.Fname;
-        newPerson.Lname = person.Lname;
-        newPerson.Email = person.Email;
-        newPerson.Message = person.Message;
-    }
-
-    private void DeletePerson(int id)
-    {
-        submittedInformation.RemoveAll(p => p.Id == id);
-    }
-
-    private void ToggleRegistrationForm()
-    {
-        showRegistrationForm = !showRegistrationForm;
-    }
-}
-
-<h1 style="font-size: 36px; color: black; text-shadow: 2px 2px 4px black; text-align: center;">
-    <strong>CONTACT US</strong>
-</h1>
-<div class="event-description">
-    <p class="event-info">@eventDescription</p>
-    <button class="toggle-button" @onclick="ToggleRegistrationForm">
-        @((showRegistrationForm ? "Hide" : "Show") + " Contact Form")
-    </button>
-</div>
-
-@if (showRegistrationForm)
-{
-    <div class="registration-container">
-        <h4>Contact/Inquiry Form</h4>
-        <EditForm Model="@newPerson" OnValidSubmit="@AddOrUpdatePerson">
-            <DataAnnotationsValidator />
-            <ValidationSummary />
-
-            <div class="form-group">
-                <label for="fname">First Name:</label>
-                <InputText id="fname" @bind-Value="newPerson.Fname" class="form-input" />
-            </div>
-            <div class="form-group">
-                <label for="lname">Last Name:</label>
-                <InputText id="lname" @bind-Value="newPerson.Lname" class="form-input" />
-            </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <InputText id="email" @bind-Value="newPerson.Email" class="form-input" />
-                @if (!string.IsNullOrEmpty(emailErrorMessage))
-                {
-                    <p class="error-message" style="color:red;">@emailErrorMessage</p>
-                }
-            </div>
-            <div class="form-group">
-                <label for="message">Message:</label>
-                <InputTextArea id="message" @bind-Value="newPerson.Message" class="form-input" placeholder="Enter your inquiry or message here" />
-            </div>
-            <button type="submit" class="submit-button">@((editingPersonId.HasValue) ? "Update" : "Submit Inquiry")</button>
-        </EditForm>
-
-        <h4 class="submitted-info-header">Submitted Inquiries</h4>
-        <ul>
-            @foreach (var person in submittedInformation)
+            if (string.IsNullOrWhiteSpace(newPerson.Email) || !newPerson.Email.Contains("@"))
             {
-                <li class="person-item">
-                    <div class="person-details">
-                        <strong>First Name:</strong> @person.Fname<br />
-                        <strong>Last Name:</strong> @person.Lname<br />
-                        <strong>Email:</strong> @person.Email<br />
-                        <strong>Message:</strong> @person.Message
-                    </div>
-                    <div class="button-group">
-                        <button class="edit-button" @onclick="() => EditPerson(person)">Edit</button>
-                        <button class="delete-button" @onclick="() => DeletePerson(person.Id)">Delete</button>
-                    </div>
-                </li>
+                emailErrorMessage = "Please include an '@' in the email address.";
+                return;
             }
-        </ul>
+            emailErrorMessage = "";
+
+            // If editing, update the existing record
+            if (editingPersonId.HasValue)
+            {
+                var person = submittedInformation.First(p => p.Id == editingPersonId.Value);
+                person.Fname = newPerson.Fname;
+                person.Lname = newPerson.Lname;
+                person.Email = newPerson.Email;
+                person.Message = newPerson.Message;
+                editingPersonId = null;
+            }
+            // If adding, assign a new Id and add to the list
+            else
+            {
+                newPerson.Id = submittedInformation.Count > 0 ? submittedInformation.Max(p => p.Id) + 1 : 1;
+                submittedInformation.Add(newPerson);
+            }
+            newPerson = new Person();
+        }
+
+        // Load selected person's data into the form for editing
+        private void EditPerson(Person person)
+        {
+            editingPersonId = person.Id;
+            newPerson.Fname = person.Fname;
+            newPerson.Lname = person.Lname;
+            newPerson.Email = person.Email;
+            newPerson.Message = person.Message;
+        }
+
+        private void DeletePerson(int id)
+        {
+            submittedInformation.RemoveAll(p => p.Id == id);
+        }
+
+        private void ToggleRegistrationForm()
+        {
+            showRegistrationForm = !showRegistrationForm;
+        }
+    }
+    <h1 style="font-size: 36px; color: black; text-shadow: 2px 2px 4px black; text-align: center;">
+        <strong>CONTACT US</strong>
+    </h1>
+    <div class="event-description">
+        <p class="event-info">@eventDescription</p>
+        <button class="toggle-button" @onclick="ToggleRegistrationForm">
+            @((showRegistrationForm ? "Hide" : "Show") + " Contact Form")
+        </button>
     </div>
-}
+    @if (showRegistrationForm)
+    {
+        <div class="registration-container">
+            <h4>Contact/Inquiry Form</h4>
+            <EditForm Model="@newPerson" OnValidSubmit="@AddOrUpdatePerson">
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+                <div class="form-group">
+                    <label for="fname">First Name:</label>
+                    <InputText id="fname" @bind-Value="newPerson.Fname" class="form-input" />
+                </div>
+                <div class="form-group">
+                    <label for="lname">Last Name:</label>
+                    <InputText id="lname" @bind-Value="newPerson.Lname" class="form-input" />
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <InputText id="email" @bind-Value="newPerson.Email" class="form-input" />
+                    @if (!string.IsNullOrEmpty(emailErrorMessage))
+                    {
+                        <p class="error-message" style="color:red;">@emailErrorMessage</p>
+                    }
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <InputTextArea id="message" @bind-Value="newPerson.Message" class="form-input" placeholder="Enter your inquiry or message here" />
+                </div>
+                <button type="submit" class="submit-button">@((editingPersonId.HasValue) ? "Update" : "Submit Inquiry")</button>
+            </EditForm>
+
+            <!-- Display list of submitted inquiries -->
+            <h4 class="submitted-info-header">Submitted Inquiries</h4>
+            <ul>
+                @foreach (var person in submittedInformation)
+                {
+                    <li class="person-item">
+                        <div class="person-details">
+                            <strong>First Name:</strong> @person.Fname<br />
+                            <strong>Last Name:</strong> @person.Lname<br />
+                            <strong>Email:</strong> @person.Email<br />
+                            <strong>Message:</strong> @person.Message
+                        </div>
+
+                        <!-- Edit and Delete Buttons for each submission -->
+                        <div class="button-group">
+                            <button class="edit-button" @onclick="() => EditPerson(person)">Edit</button>
+                            <button class="delete-button" @onclick="() => DeletePerson(person.Id)">Delete</button>
+                        </div>
+                    </li>
+                }
+            </ul>
+        </div>
+    }
+
 
 <style>
     .registration-container {

@@ -26,3 +26,7 @@ C:\Users\user\Downloads\IPT102\IPT102\IMBANGSOLUTION\Imbang_Company\bin\Debug\Im
 C:\Users\user\Downloads\IPT102\IPT102\IMBANGSOLUTION\Imbang_Company\obj\Debug\Imbang_Company.sqlproj.AssemblyReference.cache
 C:\Users\user\Downloads\IPT102\IPT102\IMBANGSOLUTION\Imbang_Company\obj\Debug\Imbang_Company.dll
 C:\Users\user\Downloads\IPT102\IPT102\IMBANGSOLUTION\Imbang_Company\obj\Debug\Imbang_Company.pdb
+C:\IPT_IMBANG\IPT102\IMBANGSOLUTION\Imbang_Company\obj\Debug\Model.xml
+C:\IPT_IMBANG\IPT102\IMBANGSOLUTION\Imbang_Company\obj\Debug\refactor.xml
+C:\IPT_IMBANG\IPT102\IMBANGSOLUTION\Imbang_Company\obj\Debug\postdeploy.sql
+C:\IPT_IMBANG\IPT102\IMBANGSOLUTION\Imbang_Company\obj\Debug\predeploy.sql

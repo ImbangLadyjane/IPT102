@@ -64,6 +64,6 @@
     <Build Include="storedprocedure\Delete.sql" />
     <Build Include="storedprocedure\Read.sql" />
     <Build Include="storedprocedure\Update.sql" />
-    <Build Include="storedprocedure\Table\Subsystem.sql" />
+    <Build Include="storedprocedure\Table\SubSystem.sql" />
   </ItemGroup>
 </Project>

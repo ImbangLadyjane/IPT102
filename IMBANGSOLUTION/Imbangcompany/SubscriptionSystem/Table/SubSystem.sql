@@ -1,0 +1,4 @@
+﻿CREATE TABLE [dbo].[SubSystem]
+(
+	[Id] INT NOT NULL PRIMARY KEY
+)

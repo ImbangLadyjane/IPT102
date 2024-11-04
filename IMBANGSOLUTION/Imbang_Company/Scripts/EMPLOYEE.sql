@@ -51,3 +51,18 @@ SELECT Employee.*, Department.*
 FROM Employee
 RIGHT JOIN Department ON Employee.SSN = Department.Mgr_ssn;
 GO
+
+SELECT Employee.*, Department.*
+FROM Employee
+CROSS JOIN Department;
+GO
+
+SELECT Employee.*, Department.*
+FROM Employee
+INNER JOIN Department ON Employee.SSN = Department.Mgr_ssn;
+GO
+
+SELECT Employee.*, Department.*
+FROM Employee
+FULL OUTER JOIN Department ON Employee.SSN = Department.Mgr_ssn;
+GO
