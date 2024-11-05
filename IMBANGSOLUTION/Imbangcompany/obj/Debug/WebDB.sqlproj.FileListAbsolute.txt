@@ -4,3 +4,9 @@ C:\IPT_IMBANG\IPT102\IMBANGSOLUTION\Imbangcompany\bin\Debug\Imbangcompany.pdb
 C:\IPT_IMBANG\IPT102\IMBANGSOLUTION\Imbangcompany\obj\Debug\WebDB.sqlproj.AssemblyReference.cache
 C:\IPT_IMBANG\IPT102\IMBANGSOLUTION\Imbangcompany\obj\Debug\Imbangcompany.dll
 C:\IPT_IMBANG\IPT102\IMBANGSOLUTION\Imbangcompany\obj\Debug\Imbangcompany.pdb
+C:\Imbang_IM\ImbangSolution\Imbangcompany\bin\Debug\WebDB.dacpac
+C:\Imbang_IM\ImbangSolution\Imbangcompany\bin\Debug\Imbangcompany.dll
+C:\Imbang_IM\ImbangSolution\Imbangcompany\bin\Debug\Imbangcompany.pdb
+C:\Imbang_IM\ImbangSolution\Imbangcompany\obj\Debug\WebDB.sqlproj.AssemblyReference.cache
+C:\Imbang_IM\ImbangSolution\Imbangcompany\obj\Debug\Imbangcompany.dll
+C:\Imbang_IM\ImbangSolution\Imbangcompany\obj\Debug\Imbangcompany.pdb

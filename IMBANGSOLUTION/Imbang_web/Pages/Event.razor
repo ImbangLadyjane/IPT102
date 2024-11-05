@@ -67,12 +67,15 @@
 <h1 style="font-size: 36px; color: black; text-shadow: 2px 2px 4px black; text-align: center;">
     <strong>CONTACT US</strong>
 </h1>
+
+
 <div class="event-description">
     <p class="event-info">@eventDescription</p>
     <button class="toggle-button" @onclick="ToggleRegistrationForm">
         @((showRegistrationForm ? "Hide" : "Show") + " Contact Form")
     </button>
 </div>
+
 
 @if (showRegistrationForm)
 {

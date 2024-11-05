@@ -11,7 +11,6 @@ VALUES
 ('Faith', 'S', 'Sandaga', 000000105, '2003-10-19', 'Bagumba', 'F', 200, 104, 5);
 GO
 
---View all employees ordered
 SELECT * FROM Employee
 ORDER BY SSN ASC;
 GO
