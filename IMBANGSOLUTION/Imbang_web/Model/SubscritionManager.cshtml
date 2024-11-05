@@ -1,0 +1,43 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Imbang_web.Pages.Data; 
+
+namespace Imbang_web.Pages
+{
+    public class SubscriptionsModel : PageModel
+    {
+        private readonly SubscriptionManager _subscriptionManager;
+
+        public SubscriptionsModel()
+        {
+            _subscriptionManager = new SubscriptionManager(); // Ideally, use Dependency Injection here
+        }
+
+        public List<Subscription>
+    Subscriptions { get; set; } = new List<Subscription>
+        ();
+
+        public void OnGet()
+        {
+        Subscriptions = _subscriptionManager.GetSubscriptions();
+        }
+
+        public IActionResult OnPostAdd(string firstName, string lastName, string email)
+        {
+        _subscriptionManager.AddSubscription(firstName, lastName, email);
+        return RedirectToPage(); // Redirect to refresh the page and show updated list
+        }
+
+        public IActionResult OnPostEdit(int index, string firstName, string lastName, string email)
+        {
+        _subscriptionManager.EditSubscription(index, firstName, lastName, email);
+        return RedirectToPage(); // Redirect to refresh the page and show updated list
+        }
+
+        public IActionResult OnPostDelete(int index)
+        {
+        _subscriptionManager.DeleteSubscription(index);
+        return RedirectToPage(); // Redirect to refresh the page and show updated list
+        }
+        }
+        }

@@ -61,10 +61,6 @@
     <Folder Include="SubscriptionSystem" />
     <Folder Include="SubscriptionSystem\Table" />
     <Folder Include="SubscriptionSystem\StoredProceduer" />
-    <Folder Include="Tables\CRUD" />
-    <Folder Include="Tables\CRUD\Storedprocedure" />
-    <Folder Include="Employee" />
-    <Folder Include="Employee\Storedprocedure" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\DEPARTMENT.sql" />
@@ -74,13 +70,10 @@
     <Build Include="Tables\PROJECT.sql" />
     <Build Include="Tables\WORKS_ON.sql" />
     <Build Include="SubscriptionSystem\Table\SubSystem.sql" />
+    <Build Include="SubscriptionSystem\StoredProceduer\Create.sql" />
     <Build Include="SubscriptionSystem\StoredProceduer\Delete.sql" />
     <Build Include="SubscriptionSystem\StoredProceduer\Read.sql" />
     <Build Include="SubscriptionSystem\StoredProceduer\Update.sql" />
-    <Build Include="Employee\Storedprocedure\Create.sql" />
-    <Build Include="Employee\Storedprocedure\Delete.sql" />
-    <Build Include="Employee\Storedprocedure\Update.sql" />
-    <Build Include="Employee\Storedprocedure\Read.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\EMPLOYEE.sql" />

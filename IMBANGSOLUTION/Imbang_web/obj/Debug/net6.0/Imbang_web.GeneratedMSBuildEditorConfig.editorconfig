@@ -9,79 +9,87 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Imbang_web
 build_property.RootNamespace = Imbang_web
-build_property.ProjectDir = C:\IPT_IMBANG\IPT102\IMBANGSOLUTION\Imbang_web\
+build_property.ProjectDir = C:\ppt\IMBANGSOLUTION\Imbang_web\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\IPT_IMBANG\IPT102\IMBANGSOLUTION\Imbang_web
+build_property.MSBuildProjectDirectory = C:\ppt\IMBANGSOLUTION\Imbang_web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/IPT_IMBANG/IPT102/IMBANGSOLUTION/Imbang_web/App.razor]
+[C:/ppt/IMBANGSOLUTION/Imbang_web/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/IPT_IMBANG/IPT102/IMBANGSOLUTION/Imbang_web/Pages/Audio.razor]
+[C:/ppt/IMBANGSOLUTION/Imbang_web/Pages/Audio.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXVkaW8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/IPT_IMBANG/IPT102/IMBANGSOLUTION/Imbang_web/Pages/Calculator.razor]
+[C:/ppt/IMBANGSOLUTION/Imbang_web/Pages/Calculator.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FsY3VsYXRvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/IPT_IMBANG/IPT102/IMBANGSOLUTION/Imbang_web/Pages/Event.razor]
+[C:/ppt/IMBANGSOLUTION/Imbang_web/Pages/Event.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/IPT_IMBANG/IPT102/IMBANGSOLUTION/Imbang_web/Pages/Images.razor]
+[C:/ppt/IMBANGSOLUTION/Imbang_web/Pages/Images.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW1hZ2VzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/IPT_IMBANG/IPT102/IMBANGSOLUTION/Imbang_web/Pages/Index.razor]
+[C:/ppt/IMBANGSOLUTION/Imbang_web/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/IPT_IMBANG/IPT102/IMBANGSOLUTION/Imbang_web/Pages/Interactve.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW50ZXJhY3R2ZS5yYXpvcg==
+[C:/ppt/IMBANGSOLUTION/Imbang_web/Pages/Subscription.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Vic2NyaXB0aW9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/IPT_IMBANG/IPT102/IMBANGSOLUTION/Imbang_web/Pages/SubscriptionSystem.razor]
+[C:/ppt/IMBANGSOLUTION/Imbang_web/Pages/SubscriptionSystem.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Vic2NyaXB0aW9uU3lzdGVtLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/IPT_IMBANG/IPT102/IMBANGSOLUTION/Imbang_web/Pages/Videos.razor]
+[C:/ppt/IMBANGSOLUTION/Imbang_web/Pages/Videos.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlkZW9zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/IPT_IMBANG/IPT102/IMBANGSOLUTION/Imbang_web/Shared/SurveyPrompt.razor]
+[C:/ppt/IMBANGSOLUTION/Imbang_web/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/IPT_IMBANG/IPT102/IMBANGSOLUTION/Imbang_web/_Imports.razor]
+[C:/ppt/IMBANGSOLUTION/Imbang_web/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/IPT_IMBANG/IPT102/IMBANGSOLUTION/Imbang_web/Shared/MainLayout.razor]
+[C:/ppt/IMBANGSOLUTION/Imbang_web/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-4zwqqt8oz0
 
-[C:/IPT_IMBANG/IPT102/IMBANGSOLUTION/Imbang_web/Shared/NavMenu.razor]
+[C:/ppt/IMBANGSOLUTION/Imbang_web/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-klaozhkwyn
 
-[C:/IPT_IMBANG/IPT102/IMBANGSOLUTION/Imbang_web/Pages/CrudIndex.cshtml]
+[C:/ppt/IMBANGSOLUTION/Imbang_web/Model/Subscriptions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kZWxcU3Vic2NyaXB0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ppt/IMBANGSOLUTION/Imbang_web/Model/SubscritionManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kZWxcU3Vic2NyaXRpb25NYW5hZ2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ppt/IMBANGSOLUTION/Imbang_web/Pages/CrudIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3J1ZEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/IPT_IMBANG/IPT102/IMBANGSOLUTION/Imbang_web/Pages/Error.cshtml]
+[C:/ppt/IMBANGSOLUTION/Imbang_web/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/IPT_IMBANG/IPT102/IMBANGSOLUTION/Imbang_web/Pages/_Host.cshtml]
+[C:/ppt/IMBANGSOLUTION/Imbang_web/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/IPT_IMBANG/IPT102/IMBANGSOLUTION/Imbang_web/Pages/_Layout.cshtml]
+[C:/ppt/IMBANGSOLUTION/Imbang_web/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

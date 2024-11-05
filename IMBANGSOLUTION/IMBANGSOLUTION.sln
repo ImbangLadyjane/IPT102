@@ -7,9 +7,7 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Imbang_Company", "Imbang_Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Imbang_web", "Imbang_web\Imbang_web.csproj", "{87D5D75B-E573-4704-8932-07E02A2180CF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Imbang_ClassLibrary", "Imbang_ClassLibrary\Imbang_ClassLibrary.csproj", "{CF912B5D-8037-40F7-ACC2-DC78BBD20C17}"
-EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "WebDB", "Imbangcompany\WebDB.sqlproj", "{7EEA3EA6-795B-4357-A690-5B8ACBB7BEC0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imbang_ClassLibrary", "Imbang_ClassLibrary\Imbang_ClassLibrary.csproj", "{CF912B5D-8037-40F7-ACC2-DC78BBD20C17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,12 +29,6 @@ Global
 		{CF912B5D-8037-40F7-ACC2-DC78BBD20C17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF912B5D-8037-40F7-ACC2-DC78BBD20C17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF912B5D-8037-40F7-ACC2-DC78BBD20C17}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7EEA3EA6-795B-4357-A690-5B8ACBB7BEC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7EEA3EA6-795B-4357-A690-5B8ACBB7BEC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7EEA3EA6-795B-4357-A690-5B8ACBB7BEC0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{7EEA3EA6-795B-4357-A690-5B8ACBB7BEC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7EEA3EA6-795B-4357-A690-5B8ACBB7BEC0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7EEA3EA6-795B-4357-A690-5B8ACBB7BEC0}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

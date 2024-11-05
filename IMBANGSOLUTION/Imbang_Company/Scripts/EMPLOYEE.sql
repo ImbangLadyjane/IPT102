@@ -11,6 +11,7 @@ VALUES
 ('Faith', 'S', 'Sandaga', 000000105, '2003-10-19', 'Bagumba', 'F', 200, 104, 5);
 GO
 
+--View all employees ordered
 SELECT * FROM Employee
 ORDER BY SSN ASC;
 GO
@@ -50,19 +51,4 @@ GO
 SELECT Employee.*, Department.*
 FROM Employee
 RIGHT JOIN Department ON Employee.SSN = Department.Mgr_ssn;
-GO
-
-SELECT Employee.*, Department.*
-FROM Employee
-CROSS JOIN Department;
-GO
-
-SELECT Employee.*, Department.*
-FROM Employee
-INNER JOIN Department ON Employee.SSN = Department.Mgr_ssn;
-GO
-
-SELECT Employee.*, Department.*
-FROM Employee
-FULL OUTER JOIN Department ON Employee.SSN = Department.Mgr_ssn;
 GO
